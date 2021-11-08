@@ -1,0 +1,94 @@
+.banner-principal__img
+  img
+    animation: float 6s ease-in-out infinite
+
+@keyframes float
+  0%
+    transform: translatey(0px)
+  50%
+    transform: translatey(-20px)
+  100%
+    transform: translatey(0px)
+
+.banner-principal__componente
+  h1
+    color: #0a4d8f !important
+
+.banner-principal__img img
+  width: 60%
+  max-width: 60%
+  margin-left: auto
+
+.BG01, .BG01Hov, .tarjeta-flip.color-primario .tarjeta-flip__img, .tarjeta-flip.color-primario .tarjeta-flip__contenido
+  background-color: lighten($color-primario, 15%) !important
+.BG02, .BG02Hov
+  background-color: lighten($color-secundario, 15%) !important
+.BG03, .BG03Hov, .tarjeta-flip.color-acento-contenido .tarjeta-flip__img, .tarjeta-flip.color-acento-contenido .tarjeta-flip__contenido
+  background-color: lighten($color-acento-contenido, 15%) !important
+.BG04, .BG04Hov, , .tarjeta-flip.color-acento-botones .tarjeta-flip__img, .tarjeta-flip.color-acento-botones .tarjeta-flip__contenido
+  background-color: lighten($color-acento-botones, 15%) !important
+
+.BG10, .BG01Hov:hover, .bloque-texto-a.color-secundario::before, 
+  background-color: lighten($color-primario, 30%) !important
+.BG20, .BG02Hov:hover,
+  background-color: lighten($color-secundario, 30%) !important
+.BG30, .BG03Hov:hover, .cajon-b.color-acento-contenido::before
+  background-color: lighten($color-acento-contenido, 30%) !important
+.BG40, .BG04Hov:hover,
+  background-color: lighten($color-acento-botones, 30%) !important
+
+.BG31
+  background-color: lighten($color-acento-contenido, 36%) !important
+
+.bloque-texto-a.color-secundario
+  background-color: $color-primario
+
+.BR01
+  border-radius: 18px
+
+.cajon-b.color-primario::before
+  opacity: .20
+
+.Clist01
+  li
+    i
+      color: $color-primario !important
+
+.Bf01
+  position: relative !important
+  &::before
+    content: ""
+    background-color: lighten($color-primario, 34%) !important
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    right: 50%
+    bottom: 0
+
+.Bf02
+  position: relative !important
+  &::before
+    content: ""
+    background-color: lighten($color-acento-contenido, 34%) !important
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    right: 50%
+    bottom: 0
+
+.LeftBord
+  border-left: 2px solid $color-sistema-f
+
+.H01
+  min-height: 480px
+
+.bgImg01
+  background-image: url("../assets/curso/tema1/img12.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+
+  
