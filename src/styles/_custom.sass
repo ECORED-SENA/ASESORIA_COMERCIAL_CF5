@@ -19,26 +19,40 @@
   max-width: 60%
   margin-left: auto
 
-.BG01, .BG01Hov, .tarjeta-flip.color-primario .tarjeta-flip__img, .tarjeta-flip.color-primario .tarjeta-flip__contenido
+.BG01, .BG01Hov, .tarjeta-flip.color-primario .tarjeta-flip__img, .tarjeta-flip.color-primario .tarjeta-flip__contenido, .tarjeta-numerada.color-primario .tarjeta-numerada__numero
   background-color: lighten($color-primario, 15%) !important
-.BG02, .BG02Hov
+.BG02, .BG02Hov, .tarjeta-numerada.color-secundario .tarjeta-numerada__numero
   background-color: lighten($color-secundario, 15%) !important
-.BG03, .BG03Hov, .tarjeta-flip.color-acento-contenido .tarjeta-flip__img, .tarjeta-flip.color-acento-contenido .tarjeta-flip__contenido
+.BG03, .BG03Hov, .tarjeta-flip.color-acento-contenido .tarjeta-flip__img, .tarjeta-flip.color-acento-contenido .tarjeta-flip__contenido, .tarjeta-numerada.color-acento-contenido .tarjeta-numerada__numero
   background-color: lighten($color-acento-contenido, 15%) !important
-.BG04, .BG04Hov, , .tarjeta-flip.color-acento-botones .tarjeta-flip__img, .tarjeta-flip.color-acento-botones .tarjeta-flip__contenido
+.BG04, .BG04Hov, , .tarjeta-flip.color-acento-botones .tarjeta-flip__img, .tarjeta-flip.color-acento-botones .tarjeta-flip__contenido, .tarjeta-numerada.color-acento-botones .tarjeta-numerada__numero
   background-color: lighten($color-acento-botones, 15%) !important
 
 .BG10, .BG01Hov:hover, .bloque-texto-a.color-secundario::before, 
-  background-color: lighten($color-primario, 30%) !important
+  background-color: lighten($color-primario, 31%) !important
 .BG20, .BG02Hov:hover,
-  background-color: lighten($color-secundario, 30%) !important
-.BG30, .BG03Hov:hover, .cajon-b.color-acento-contenido::before
-  background-color: lighten($color-acento-contenido, 30%) !important
-.BG40, .BG04Hov:hover,
-  background-color: lighten($color-acento-botones, 30%) !important
+  background-color: lighten($color-secundario, 31%) !important
+.BG30, .BG03Hov:hover, .cajon-b.color-acento-contenido::before, 
+  background-color: lighten($color-acento-contenido, 31%) !important
+.BG40, .BG04Hov:hover, 
+  background-color: lighten($color-acento-botones, 31%) !important
 
+.tarjeta-numerada.color-primario
+  border-color: lighten($color-primario, 15%) !important
+.tarjeta-numerada.color-secundario
+  border-color: lighten($color-secundario, 15%) !important
+.tarjeta-numerada.color-acento-contenido
+  border-color: lighten($color-acento-contenido, 15%) !important
+.tarjeta-numerada.color-acento-botones
+  border-color: lighten($color-acento-botones, 15%) !important
 .BG31
   background-color: lighten($color-acento-contenido, 36%) !important
+
+.BG00
+  background-color: $color-sistema-h !important
+
+.BG01
+  background-color: $color-sistema-f !important
 
 .bloque-texto-a.color-secundario
   background-color: $color-primario
@@ -58,12 +72,24 @@
   position: relative !important
   &::before
     content: ""
-    background-color: lighten($color-primario, 34%) !important
+    background-color: lighten($color-primario, 31%) !important
     display: block
     position: absolute
     top: 0
     left: 0
     right: 50%
+    bottom: 0
+  
+.Bf11
+  position: relative !important
+  &::before
+    content: ""
+    background-color: lighten($color-primario, 31%) !important
+    display: block
+    position: absolute
+    top: 0
+    left: 25%
+    right: 0
     bottom: 0
 
 .Bf02
@@ -89,6 +115,7 @@
   background-size: cover
   background-repeat: no-repeat
   background-position: center
+
 
 
   

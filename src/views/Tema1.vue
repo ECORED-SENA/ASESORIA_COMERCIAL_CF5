@@ -195,49 +195,49 @@
       .row
         .col-md-4
           ol.lista-ol--cuadro
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span a
               | Representante de ventas
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span b
               | Promotor de ventas
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span c
               | Gerente de ventas
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span d
               | Gerente de cuentas clave
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span e
               | Gerente de categoría
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span f
               | Entrenado en ventas
         .col-md-4
           ol.lista-ol--cuadro
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span g
               | Gerente de distrito
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span h
               | Gerente nacional de ventas 
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span i
               | Ingeniero de ventas
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span j
               | Supervisor de ventas
-            li.mb-4
+            li.mb-3
               .lista-ol--cuadro__vineta
                 span k
               | Ejecutivo de cuentas

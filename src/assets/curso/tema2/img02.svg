@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="148" viewBox="0 0 148 148">
+  <g id="Grupo_85879" data-name="Grupo 85879" transform="translate(-221 -1499)">
+    <g id="Grupo_85873" data-name="Grupo 85873" transform="translate(-87.522 1479.949)">
+      <path id="Trazado_109148" data-name="Trazado 109148" d="M315.441,82.931v47.732a5.577,5.577,0,0,0,5.577,5.579h0a5.578,5.578,0,0,0,5.579-5.579V111.791" transform="translate(0.841 18.81)" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <g id="Grupo_85872" data-name="Grupo 85872" transform="translate(313.522 40)">
+        <path id="Trazado_109149" data-name="Trazado 109149" d="M327.009,66.972A13.486,13.486,0,1,1,340.5,53.485,13.485,13.485,0,0,1,327.009,66.972Z" transform="translate(-313.522 -40)" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      </g>
+      <path id="Trazado_109150" data-name="Trazado 109150" d="M389.122,43.838H352.474a6.636,6.636,0,0,0-6.636,6.637V72.5a6.636,6.636,0,0,0,6.636,6.637h13.839a.806.806,0,0,1,.807.807V88.6a.808.808,0,0,0,1.379.572l9.8-9.8a.813.813,0,0,1,.572-.236h10.248a6.637,6.637,0,0,0,6.637-6.637V50.475A6.637,6.637,0,0,0,389.122,43.838Z" transform="translate(14.159 1.682)" fill="none" stroke="#eb0028" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line id="Línea_278" data-name="Línea 278" x1="21.404" transform="translate(374.255 63.166)" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" stroke-dasharray="0.17 6.857"/>
+      <path id="Trazado_109151" data-name="Trazado 109151" d="M355.463,90.758h54.192a1.783,1.783,0,0,1,1.708,2.3l-8.488,28.294H364.639L352.023,79.788a1.783,1.783,0,0,0-1.706-1.264h-7.681" transform="translate(12.756 16.879)" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Trazado_109152" data-name="Trazado 109152" d="M366.514,117.908a5.353,5.353,0,1,1-5.353-5.353A5.353,5.353,0,0,1,366.514,117.908Z" transform="translate(18.527 31.789)" fill="none" stroke="#eb0028" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <circle id="Elipse_4278" data-name="Elipse 4278" cx="5.353" cy="5.353" r="5.353" transform="translate(407.219 144.344)" fill="none" stroke="#eb0028" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line id="Línea_279" data-name="Línea 279" x2="9.071" transform="translate(391.595 145.874)" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line id="Línea_280" data-name="Línea 280" x2="50.529" transform="translate(371.212 117.859)" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line id="Línea_281" data-name="Línea 281" x2="44.346" transform="translate(374.337 128.204)" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Trazado_109153" data-name="Trazado 109153" d="M327.982,76.4l3.631,7.615a5.178,5.178,0,0,0,4.674,2.95h14.265a4.612,4.612,0,0,0,4.7-4.218,4.417,4.417,0,0,0-4.414-4.616H338.594l-4.293-9c-2.246-4.875-5.7-5.494-9.61-5.494h0a9.251,9.251,0,0,0-9.251,9.25V91.387h0v2.35a28.948,28.948,0,0,0,4.182,14.987h0l20.144,33.283a5.577,5.577,0,0,0,7.659,1.884h0a5.576,5.576,0,0,0,1.884-7.66l-17.275-28.544a6.536,6.536,0,0,1-.943-3.382V92.251" transform="translate(0.84 10.354)" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    </g>
+    <rect id="Rectángulo_33991" data-name="Rectángulo 33991" width="148" height="148" transform="translate(221 1499)" fill="none"/>
+  </g>
+</svg>

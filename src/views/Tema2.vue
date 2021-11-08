@@ -3,138 +3,263 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
-      .h3 Producción Audiovisual
+    .titulo-principal.color-acento-botones(data-aos="flip-up")
+      .titulo-principal__numero
+        span 2
+      h1 Transacciones comerciales
     
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
+    .Bf02.p-4.mb-5
+      .row.align-items-center.position-relative
+        .col-lg-8.mb-4.mb-lg-0
+          p.mb-4 Cuando el proceso de la venta finaliza con el consentimiento de las partes de la aceptación del bien o servicio, se inicia un proceso de formalización de ese acuerdo, y las transacciones comerciales dan respuesta a esos acuerdos y transferencia de la propiedad. 
+
+          p.mb-0 Estas transacciones hacen referencia a toda actividad económica que se realiza entre las empresas a través de un conjunto de movimientos comerciales en el mercado, donde compradores y vendedores realizan intercambios para la satisfacción de sus necesidades. 
+
+        .col-8.col-lg-3
+          figure
+            img(src='@/assets/curso/tema2/img01.svg', alt='Transacciones comerciales')
     
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
-
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-4
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-3.mb-4.mb-lg-0
+          h1.mb-0 Coll (2020)
+        .col-lg-9
+          .bloque-texto-a__texto.p-4
+            p.mb-0 Una transacción comercial es una operación mercantil en la que un vendedor y un comprador acuerdan la transferencia de la propiedad sobre algo, a cambio de un precio previamente acordado.
     
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-3.mb-4.mb-lg-0
+          h1.mb-0 Sy (2019)
+        .col-lg-9
+          .bloque-texto-a__texto.p-4
+            p.mb-0 Son actividades o eventos económicos que implican interacciones entre dos o más partes, en las que se intercambian productos, servicios o valores por algún tipo de retribución, con frecuencia en la forma de dinero.
     
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
+    p.mb-4 Los elementos que hacen parte de una transacción comercial de acuerdo con Coll (2020), son:
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .row.align-items-stretch.gx-4.b-5.mb-5
+      .col-md-6.col-lg-3.mb-4.mb-md-0
+        .BG30.h-100.p-4
+          figure.mb-4
+            img.w-75(src='@/assets/curso/tema2/img02.svg', alt='El comprador')
+          h4 El comprador
+          p.mb-0 La persona que necesita el bien o servicio.
+      .col-md-6.col-lg-3.mb-4.mb-md-0
+        .BG40.h-100.p-4
+          figure.mb-4
+            img.w-75(src='@/assets/curso/tema2/img03.svg', alt='El Vendedor')
+          h4 El Vendedor 
+          p.mb-0 Es la persona o entidad que ofrece el bien o servicio. Este puede ser un sujeto de producción o distribución o ser un sujeto de consumo.
+      .col-md-6.col-lg-3.mb-4.mb-md-0
+        .BG10.h-100.p-4
+          figure.mb-4
+            img.w-75(src='@/assets/curso/tema2/img04.svg', alt='El componente monetario')
+          h4 El componente monetario
+          p.mb-0 Este pago se puede realizar de contado o en efectivo. 
+
+      .col-md-6.col-lg-3
+        .BG01.h-100.p-4
+          figure.mb-4
+            img.w-75(src='@/assets/curso/tema2/img05.svg', alt='El bien o servicio')
+          h4 El bien o servicio
+          p.mb-0 
     
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
+    p.mb-5 En ocasiones, dependiendo de la complejidad de la transacción realizada, se involucran otras actividades que forman parte del servicio, como la entrega a domicilio, seguros u otros.
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    h3 Características de una transacción comercial
+
+    p.mb-4 Toda transacción comercial tiene consigo unas maneras de realizarse que la distinguen. Sy (2019), señala las siguientes características alrededor de las transacciones comerciales.
+
+    .Bf11.mb-5
+      .row.align-items-end.justify-content-center.position-relative
+        .col-lg-5.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema2/img06.svg', alt='Características de una transacción comercial')
+        .col-lg-7.ps-4.py-5
+          ul.lista-ul--color.Clist01.mb-0
+            li
+              i.fas.fa-check
+              p Es un evento monetario. 
+            li
+              i.fas.fa-check
+              p Representa para las partes una entrada o salida de activo, pasivo o patrimonio neto.
+            li
+              i.fas.fa-check
+              p Las transacciones pertenecen al negocio, no al propietario ni a ninguna otra persona que administre el negocio. 
+            li
+              i.fas.fa-check
+              p Las transacciones se conforman por dos partes, quien compra y quien vende. 
+            li
+              i.fas.fa-check
+              p Existe una persona autorizada. Es decir, una persona que posee la capacidad para transferir el capital o la propiedad, dependiendo de si es comprador o vendedor.
+            li.mb-0
+              i.fas.fa-check
+              p.mb-0 Debe estar soportado con un documento legal: factura, cheque, letras de cambio, seguros, notas, entre otros.
     
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
+    h3 Tipo de transacciones
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    p.mb-4 Las transacciones comerciales se componen en transacciones de contado que se realizan en el momento que se realiza la compra y a crédito aun cuando el comprador recibe el bien o servicio, el vendedor lo recibe en un plazo definido.
+
+    p.mb-5 A continuación, se referencia ejemplos de transacciones comerciales según Sy (2019):
+
+    .cajon.color-acento-contenido.BG30.p-5.mb-5
+      .row.align-items-center.justify-content-center
+        .col-md-6.mb-4.mb-md-0
+          ol.lista-ol--cuadro
+            li.mb-3
+              .lista-ol--cuadro__vineta
+                span a
+              | Comprar el seguro a empresa aseguradora
+            li.mb-3
+              .lista-ol--cuadro__vineta
+                span b
+              | Comprar inventario de un proveedor
+            li.mb-3
+              .lista-ol--cuadro__vineta
+                span c
+              | Vender productos a un cliente por dinero en efectivo
+            li.mb-3
+              .lista-ol--cuadro__vineta
+                span d
+              | Vender productos a un cliente a crédito
+            li.mb-3
+              .lista-ol--cuadro__vineta
+                span e
+              | Pago de salarios a empleados
+            li.mb-3
+              .lista-ol--cuadro__vineta
+                span f
+              | Obtención de un préstamo a entidades
+            li.mb-0
+              .lista-ol--cuadro__vineta
+                span g
+              | Vender acciones a un inversors
+        .col-10.col-md-6
+          figure
+            img(src='@/assets/curso/tema2/img07.svg', alt='ejemplos de transacciones comerciales')
+    
+    p.mb-5 Los documentos que utilizan en la venta tienen dos direcciones: las que realiza la empresa o interna y las que recibe el comprador o externa. En la siguiente tabla se describe el proceso de la transacción comercial de acuerdo con Lobato, De la Mata y Rodríguez (2010).
+
+    .titulo-sexto.color-acento-botones
+      h5 Tabla 1.
+      span Relaciones documentales entre comprador y vendedor
+    
+    //- .tabla-a debe ir acompañado de una de una de estas clases => 
+    //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+    .tabla-a.color-acento-contenido.mb-5
+      table
+        caption Nota. Tomada de De la Mata y Rodríguez (s.f.).
+        thead
+          tr
+            th Operaci&oacute;n
+            th Documento
+            th Emisor
+            th Receptor
+        tbody
+          tr
+            td El comprador pide informaci&oacute;n al vendedor
+            td Petici&oacute;n de ofertas
+            td Comprador
+            td Vendedor
+          tr
+            td El vendedor informa al cliente
+            td Cat&aacute;logo y tarifa de precios
+            td Vendedor
+            td Comprador
+          tr
+            td(rowspan='2') El comprador pide productos
+            td Pedido
+            td Vendedor
+            td Comprador
+          tr
+            td Aceptaci&oacute;n de pedido
+            td Vendedor
+            td Comprador
+          tr
+            td(rowspan='4') El vendedor env&iacute;a la mercanc&iacute;a
+            td Albar&aacute;n
+            td Vendedor
+            td Comprador
+          tr
+            td Nota de gastos
+            td Vendedor
+            td Comprador
+          tr
+            td Carta de portes
+            td Transportista
+            td Vendedor / Comprador
+          tr
+            td P&oacute;liza de seguros
+            td Aseguradora
+            td Vendedor / Comprador
+          tr
+            td(rowspan='5') El comprador paga el precio
+            td Factura
+            td Vendedor
+            td Comprador
+          tr
+            td Recibo
+            td Vendedor
+            td Comprador
+          tr
+            td Letra de cambio
+            td Comprador
+            td Vendedor
+          tr
+            td Cheque
+            td Comprador
+            td Vendedor
+          tr
+            td Pagar&eacute;
+            td Comprador
+            td Venderor
+          tr
+            td El vendedor liquida el IVA
+            td Liquidaciones de IVA
+            td Vendedor
+            td Hacienda p&uacute;blica
+
+    h3 Proceso de una transacción comercial
+
+    p.mb-5 El proceso de registro de una transacción comercial debe realizarse siguiendo los protocolos de la empresa, siendo exacto, cuidadoso y metódico. En ese proceso el departamento de contabilidad, ventas y áreas interesadas. Esos documentos que apoyan la transacción son documentos financieros y el soporte para la información a contabilidad, entre ellos se tienen cheques, tarjetas de crédito, tarjetas débito, pagos por PSE. 
+
+    h3 Soportes que apoyan
+
+    p.mb-4 El principal soporte de acuerdo con las leyes de Colombia es la factura, definida por el artículo 772 del Código de Comercio colombiano como un título valor que el vendedor o prestador del servicio podrá librar y entregar o remitir al comprador o beneficiario del servicio. En Colombia los contribuyentes obligados a emitir facturas son:
+
+    .row.justify-content-center.mb-4
+      .col-md-6.col-lg-5.mb-4.mb-lg-0
+        .tarjeta-numerada.color-acento-botones.p-5.h-100
+          .tarjeta-numerada__numero
+            .h2.text-white 1
+          p.text-center.mb-0 Responsables del régimen común.
+
+      .col-md-6.col-lg-5
+        .tarjeta-numerada.color-primario.p-5.h-100
+          .tarjeta-numerada__numero
+            .h2.text-white 2
+          p.text-center.mb-0 Los señalados por la Dirección de Impuestos y Aduanas Nacionales - DIAN, para declarar vía electrónica.
+    
+    .row.justify-content-center.mb-5
+      .col-md-6.col-lg-5.mb-4.mb-lg-0
+        .tarjeta-numerada.color-acento-contenido.p-5.h-100
+          .tarjeta-numerada__numero
+            .h2.text-white 3
+          p.text-center.mb-0 Los proveedores de tecnología, tipógrafos y litógrafos.
+
+      .col-md-6.col-lg-5
+        .tarjeta-numerada.color-secundario.p-5.h-100
+          .tarjeta-numerada__numero
+            .h2.text-white 4
+          p.text-center.mb-0 Los responsables del impuesto al consumo.
+    
+    p.mb-4 Otros documentos que apoyan las transacciones comerciales, son:
+
+
+
+
+
+
 
 </template>
 
