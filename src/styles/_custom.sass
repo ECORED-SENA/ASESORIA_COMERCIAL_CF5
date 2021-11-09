@@ -19,7 +19,7 @@
   max-width: 60%
   margin-left: auto
 
-.BG01, .BG01Hov, .tarjeta-flip.color-primario .tarjeta-flip__img, .tarjeta-flip.color-primario .tarjeta-flip__contenido, .tarjeta-numerada.color-primario .tarjeta-numerada__numero
+.BG01, .BG01Hov, .tarjeta-flip.color-primario .tarjeta-flip__img, .tarjeta-flip.color-primario .tarjeta-flip__contenido, .tarjeta-numerada.color-primario .tarjeta-numerada__numero, .pasos-a.color-primario .pasos-a__circle
   background-color: lighten($color-primario, 15%) !important
 .BG02, .BG02Hov, .tarjeta-numerada.color-secundario .tarjeta-numerada__numero
   background-color: lighten($color-secundario, 15%) !important
@@ -59,6 +59,9 @@
 
 .BR01
   border-radius: 18px
+
+.BR02
+  border-radius: 34px
 
 .cajon-b.color-primario::before
   opacity: .20
@@ -116,6 +119,23 @@
   background-repeat: no-repeat
   background-position: center
 
+.pasos-a.color-primario .pasos-a__circle div
+  color: $white
 
+.Edit01
+  border: none !important
+  .tarjeta-numerada__numero
+    top: 50% !important
+    transform: translateX(-50%) translateY(-50%) !important
 
+.linea-tiempo-d__item__content
+  background: linear-gradient(0deg, rgba(255,251,235,1) 0%, rgba(209,240,255,1) 100%) !important
+
+.Sttable01
+  border-top: 4px solid $color-acento-contenido
+  background-color: $white
+  table-layout: auto
+
+.Hdf1
+  height: 120px
   

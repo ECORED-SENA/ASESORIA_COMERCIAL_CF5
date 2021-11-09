@@ -253,13 +253,206 @@
             .h2.text-white 4
           p.text-center.mb-0 Los responsables del impuesto al consumo.
     
-    p.mb-4 Otros documentos que apoyan las transacciones comerciales, son:
+    h4.mb-4 Otros documentos que apoyan las transacciones comerciales, son:
 
+    .cajon.color-acento-contenido.BG30.mb-5
+      .row.align-items-end.justify-content-evenly
+        .col-lg-4.mb-4.mb-lg-0.p-5
+          ul.lista-ul--color.mb-0
+            li
+              i.fas.fa-check
+              p Propuesta comercial.
+            li
+              i.fas.fa-check
+              p Lista de precios.
+            li
+              i.fas.fa-check
+              p La orden de pedido.
+            li
+              i.fas.fa-check
+              p La remisión de la mercancía.
+            li
+              i.fas.fa-check
+              p Pólizas de seguros.
+            li
+              i.fas.fa-check
+              p La orden de cargue
+            li
+              i.fas.fa-check
+              p Notas débitos
+            li
+              i.fas.fa-check
+              p Notas créditos
+            li
+              i.fas.fa-check
+              p Factura
+            li.mb-0
+              i.fas.fa-check
+              p.mb-0 Factura electrónica
+        .col-md-5
+          figure
+            img(src='@/assets/curso/tema2/img08.svg', alt='transacciones comerciales')
+    
+    #t2_1.titulo-segundo.color-acento-contenido
+      h2 2.1 Formas de pago
+    
+    p.mb-5 Las diversas formas para el pago en las transacciones comerciales son (Lobato, De la Mata y Rodríguez, 2010):
 
+    .row.mb-5
+      .col-md-4
+        h4 De contado:
+        ul.lista-ul--color.mb-0
+          li
+            i.fas.fa-check
+            p Entrega de dinero en efectivo.
+          li
+            i.fas.fa-check
+            p Domiciliación bancaria.
+          li
+            i.fas.fa-check
+            p Ingreso en efectivo en cuenta corriente.
+          li
+            i.fas.fa-check
+            p Cobro y pago a través del servicio de correos.
+          li
+            i.fas.fa-check
+            p Transferencia bancaria.
+          li
+            i.fas.fa-check
+            p Medios electrónicos o pagos online.
+          li
+            i.fas.fa-check
+            p Cheques.
+      .col-md-4
+        h4 A crédito:
+        ul.lista-ul--color.mb-0
+          li
+            i.fas.fa-check
+            p Letra de cambio.
+          li
+            i.fas.fa-check
+            p Pagaré.
+          li
+            i.fas.fa-check
+            p Tarjetas de créditos.
+    
+    #t2_2.titulo-segundo.color-acento-contenido
+      h2 2.2 Documentos comerciales
+    
+    p.mb-4 Toda actividad mercantil está soportada en documentos comerciales que pueden ser físicos o digitales de acuerdo con las normas que establece la Ley. Estos documentos permiten a las personas y empresas tener un control de cada transacción realizada, son la demostración de compra llevada a cabo.
 
+    p.mb-5 Se recomienda archivar o guardar los documentos comerciales por diez (10) años desde la fecha de emisión del documento.
 
+    h4 Su importancia radica en las propiedades que tiene, a saber: 
 
+    ul.lista-ul--color.mb-4
+      li
+        i.fas.fa-check
+        p Registro de la relación jurídica de la transacción con derechos y obligaciones. 
+      li
+        i.fas.fa-check
+        p Medio de prueba de la transacción de comercio realizada.
+      li
+        i.fas.fa-check
+        p A través de ellos se inicia el registro de las operaciones contables. 
+      li
+        i.fas.fa-check
+        p Permiten el control de las operaciones practicadas por la empresa (GestioPolis.com Experto, 2020).
+    
+    h4.mb-4 Es así como estos documentos tienen la siguiente clasificación según GestioPolis.com Experto (2020):
 
+    .row.justify-content-center
+      .col-lg-10
+        PasosA.color-primario.mb-5(tipo="n")
+          div
+            h3 Documentos comerciales negociables
+            p Se pueden convertir en flujo de caja o efectivo. Normalmente el poseedor puede realizar transacciones soportados en esos documentos. Como caso de ejemplo: pagaré, cheque, la letra de cambio, la libranza, la factura cambiaria u otro documento con estas características.
+          div
+            h3 Documentos comerciales no negociables
+            p Sirven de soporte a la transacción realizada, el poseedor no puede realizar transacciones con ellos, y son: la cotización, el pedido, la remisión, la factura, el recibo de caja, el comprobante de pago, el recibo de consignación y las notas débito y crédito.
+          div
+            h3 Documentos privados
+            p Son los suscritos entre las partes sin intervención de notarios, jueces o funcionarios.
+          div
+            h3 Documentos públicos
+            p Son los realizados por los notarios o funcionarios judiciales.
+          div
+            h3 Documentos informativos
+            p Aquellos que suministran información sobre el estado de la mercancía y sus generalidades como su valor, condiciones de pago, entre otros.
+          div
+            h3 Documentos de soporte
+            p Son utilizados como prueba de una acción realizada y para pagar o respaldar una obligación monetaria.
+    
+    #t2_3.titulo-segundo.color-acento-contenido
+      h2 2.3 Condiciones comerciales
+    
+    p.mb-4 Cuando se está en el proceso de la venta, entre el vendedor y el cliente, dependiendo el nivel o complejidad de la negociación, se definirán unos acuerdos, procedimientos y normas siguiendo la ley vigente que guiarán las futuras transacciones comerciales.
+
+    p.mb-4 Estas condiciones comerciales entre la empresa o vendedor y cliente o comprador que guiarán las relaciones, pueden ser:
+
+    .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01
+      .tarjeta-numerada__numero
+        .h2.text-white 1
+      h4.mb-0 Los pedidos. 
+      p.mb-0 Se fijará como será aceptado el pedido, quien lo firmará los y sellará, los plazos para ser entregados.
+    
+    .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01
+      .tarjeta-numerada__numero
+        .h2.text-white 2
+      h4.mb-0 Los precios y descuentos convenidos. 
+      p.mb-0 Si los precios incluyen el transporte, los tipos de descuentos a otorgar, los impuestos según la ley.
+    
+    .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01
+      .tarjeta-numerada__numero
+        .h2.text-white 3
+      h4.mb-0 Los plazos de pago con las fechas y descuentos según el cumplimiento del pago. 
+      p.mb-0 Ejemplo: plazo de 15 o 30 días a partir de la fecha de la factura con un descuento por pronto pago del 3 %.
+
+    .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01
+      .tarjeta-numerada__numero
+        .h2.text-white 4
+      h4.mb-0 Reclamaciones por defectos de la mercancía.
+
+    .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01
+      .tarjeta-numerada__numero
+        .h2.text-white 5
+      h4.mb-0 Los cupos de crédito otorgados según referencia comercial.
+    
+    .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01.mb-5
+      .tarjeta-numerada__numero
+        .h2.text-white 6
+      h4.mb-0 Otros tipos de condiciones sobre fletes, despachos, a quien le hará el pago, entre otros.
+
+    #t2_4.titulo-segundo.color-acento-contenido
+      h2 2.4 Condiciones de entrega
+
+    p.mb-4 Una de las más importantes condiciones establecidas entre vendedor y comprador, es la entrega de la mercancía, así:
+
+    .cajon.color-acento-contenido.BG30.mb-4
+      .row.align-items-center.justify-content-evenly.p-5
+        .col-lg-4.mb-4.mb-lg-0
+          ul.lista-ul--color.mb-0
+            li
+              i.fas.fa-check
+              p Si es llevada hasta la dirección del solicitante.
+            li
+              i.fas.fa-check
+              p Si incluye los fletes, condiciones de la mercancía, plazos y mora en la entrega.
+            li
+              i.fas.fa-check
+              p Riesgos en la entrega.
+            li
+              i.fas.fa-check
+              p Mora en la aceptación de la mercancía. 
+        .col-md-4
+          figure
+            img(src='@/assets/curso/tema2/img09.svg', alt='2.4 Condiciones de entrega')
+
+    p.mb-4 Cada una de esas condiciones depende de la política de servicio de quien ejerce como vendedor. 
+
+    p.mb-4 Para envíos internacionales las relaciones entre vendedor y comprador se rigen por las normas internacionales de entrega llamados #[b INCOTERMS] de uso y reconocimiento mundial y que contienen las principales condiciones de entrega; estos términos tienen como propósito establecer con exactitud los gastos que el exportador deberá asumir permitiendo su identificación y consecuente incorporación en el precio de exportación de la mercancía.
+
+    p.mb-0 Para ampliar la información, se invita a visitar el enlace #[b “Transacciones comerciales”] que se encuentra en el material complementario.
 
 </template>
 

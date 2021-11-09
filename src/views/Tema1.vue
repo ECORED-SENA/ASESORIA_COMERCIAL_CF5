@@ -113,7 +113,7 @@
       h4 Otros tipos de ventas
       p Incluyen: ventas consultivas, ventas complejas.
 
-    #t1_1.titulo-segundo.color-secundario
+    #t1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Herramientas de la venta
     
     p.mb-4 Las herramientas de productividad en ventas son aquellas que ayudan a la empresa a hacer más en menos tiempo, es decir, logran automatizar varias funciones, sirven como una forma de establecer una mejor comunicación interna o con los clientes, o permiten gestionar las funciones de ventas de alguna forma.
@@ -123,7 +123,7 @@
         figure
           img(src='@/assets/curso/tema1/img07.svg', alt='Herramientas de la venta')
     
-    #t1_2.titulo-segundo.color-secundario
+    #t1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Herramientas de la venta
 
     .Bf01.p-5.mb-5
