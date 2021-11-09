@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.bg-white.BRtarjetaTop.p-4.p-md-5
     
     .titulo-principal.color-acento-botones(data-aos="flip-up")
       .titulo-principal__numero
@@ -660,62 +660,358 @@
     
     p.mb-4 El proceso de la venta debe estar en sintonía con el proceso de compra del cliente, este ciclo de acuerdo con Antevenio (2020), consta de cuatro fases por las que atraviesa un cliente, desde que se da cuenta de su necesidad, hasta que tiene la capacidad de satisfacerla comprando el producto o servicio, las que se pueden interrelacionar con el método AIDA, como se muestra a continuación.
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-7
         .titulo-sexto.color-acento-botones
           h5 Figura 4.
           span El proceso de compra y el método AIDA 
-        figure.mb-5
-          img.mb-4(src='@/assets/curso/tema1/img22.svg', alt='compra y el método AIDA')
+        figure
+          img(src='@/assets/curso/tema1/img22.svg', alt='compra y el método AIDA')
     
     p.mb-4 A continuación se presenta la descripción de cada uno de los elementos que atienden al Modelo AIDA:
 
+    ImagenInfograficaB.color-acento-contenido.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema1/img23.svg', alt='Modelo AIDA')
+
+      div(x="26.5%" y="60%" tooltip="Atraer la Atención del cliente" numero="1")
+        h4 Atraer la Atención del cliente
+        p En esta etapa se busca captar la atención inmediata del cliente, debe tenerse en cuenta lo siguiente:
+        p • Actitud vendedora (entusiasmo, optimismo y deseo de vender).
+        p • Presentación personal adecuada.
+        p • Hacer que el cliente manifieste interés.
+        p.mb-0 • Descubrir la personalidad del cliente.
+      
+      div(x="41%" y="60%" tooltip="Crear y retener el Interés del cliente" numero="2")
+        h4 Crear y retener el Interés del cliente
+        p En esta etapa se busca despertar el interés del prospecto en el producto o servicio.
+        p Se debe:
+        p • Ayudar al cliente a identificar y reconocer que tiene una necesidad o que se encuentra ante un problema.
+        p.mb-0 • Hacer unas cuantas sugerencias tentadoras sobre la forma en que el producto o servicio puede beneficiar al comprador.
+      
+      div(x="55.5%" y="60%" tooltip="Provocar el Deseo de adquirir el producto" numero="3")
+        h4 Provocar el Deseo de adquirir el producto
+        p En esta etapa es donde se venden las soluciones a los problemas y necesidades del prospecto.
+        p.mb-0 La principal tarea del vendedor es la de ayudar a su cliente a que entienda que el producto o servicio que se le está presentando, logrará la satisfacción de sus necesidades o deseos, o que será la mejor solución a sus problemas. Se apoya en el catálogo, demuestra, enseña, explica, comprueba.
+      
+      div(x="73.5%" y="60%" tooltip="Conseguir la Acción de compra" numero="4")
+        h4 Conseguir la Acción de compra
+        p En esta etapa se produce el resultado que se desea obtener: "El pedido o la orden de compra”, es decir, el cierre de la venta. Existen dos puntos de vista:
+        p El del cliente: quien evalúa si los beneficios del producto van a satisfacer su necesidad o deseo, o van a solucionar su problema, y compara las ventajas y desventajas de tener o no el producto o servicio.
+        p.mb-0 El del vendedor: quien, considera que es el momento oportuno para ayudar al cliente a decidirse por la compra y para persuadirlo de que actúe sin demora.
     
+    .Bf02.p-4.mb-5
+      .position-relative
+        h4 Técnica de venta basada en el método SPIN
+        p.mb-0 Es otra técnica de ventas que puede utilizar el vendedor según la necesidad en el proceso de ventas es el Spin Selling, creada por Neil Rackham en 1988. La técnica se basa en realizar una serie de preguntas sobre situación, problema, implicación y necesidad de pago. Cada una de las preguntas tienen un propósito claro, y se deben hacer en el orden propuesto por Rackham.
+    
+    p.mb-4 El método permite identificar cómo el cliente expresa sus necesidades, bien sean necesidades implícitas o explícitas, descritas de manera ejemplarizante en la siguiente figura.
 
+    .row.justify-content-center.mb-5
+      .col-lg-11
+        .row.gx-2
+          .col-lg-3
+            .BG10.h-100
+              .BG01.p-4
+                h4.text-center.mb-0 Situación
+              .p-4
+                p.mb-0 Etapa donde se procura ganar confianza y conseguir información.
+          .col-lg-3
+            .BG10.h-100
+              .BG01.p-4
+                h4.text-center.mb-0 Problema
+              .p-4
+                p.mb-0 Llevará al cliente a conocer que tiene un problema, o potencial problema.
+          .col-lg-3
+            .BG10.h-100
+              .BG01.p-4
+                h4.text-center.mb-0 Implicación
+              .p-4
+                p.mb-0 Las implicaciones que puede generar ese problema para, finalmente, identificar qué necesita una solución.
+          .col-lg-3
+            .BG10.h-100
+              .BG01.p-4
+                h4.text-center.mb-0 Necesidad
+              .p-4
+                p.mb-0 Es entonces cuando se presentará la solución a problemas, implicaciones y necesidad de solución del cliente: el producto.
+    
+    p.mb-4 El método permite identificar cómo el cliente expresa sus necesidades, bien sean necesidades implícitas o explícitas, descritas de manera ejemplarizante en la siguiente figura.
 
+    .titulo-sexto.color-acento-botones
+      h5 Figura 5.
+      span Necesidades implícitas y explícitas
+    
+    .h3.text-center.mb-4 Necesidades
 
+    .row.gx-2.mb-4
+      .col-lg-4
+        .BG00.BR01.h-100.p-5
+          h4 Necesidades implícitas o generales:
+          p.mb-4 Son aquellas que muestran los problemas del cliente. 
+          p.mb-0 Las muestran cuando dicen “No estoy contento con esto…”. En este punto, el cliente no está listo para comprar… todavía.      
+      .col-lg-4
+        div
+          figure
+            img.w-75.mx-auto(src='@/assets/curso/tema1/img24.svg', alt='Necesidades')
+      .col-lg-4
+        .BG00.BR01.h-100.p-5
+          h4 Necesidades explícitas o particulares: 
+          p.mb-0 para que un cliente compre, su necesidad debe ser ya explícita, que lo esté expresando. Debe demostrarlo mediante frases que expresen deseo como “Necesito un XXX que tenga XXX característica”, si tuviéramos XXX y XXX, entonces podríamos, XXX”.
+    
+  .container.bg-white.p-0
+    ImagenInfografica.color-secundario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema1/img25.svg', alt='')
 
-
-
-
-
-
-
-
-
-
-
+      .tarjeta.color-acento-botones.BG40.p-3(x="66.7%" y="26.5%" numero="1")
+        p.mb-0 #[b Situación:] estas preguntas buscan reunir datos, hechos e información relevante sobre la situación actual del cliente. Se debe preguntar sobre el cliente, sobre su negocio y sobre sus operaciones, con preguntas sobre su necesidad, de manera que eliminarás de tu batería preguntas obvias y las que puedes encontrar por otras fuentes. Concéntrate en preguntas relevantes para tus fines, no preguntes por preguntar.
       
-
-
-
-
-
-
-
-
-
-
-
-
-          
-
-          
-
-
-
-
- 
-
-
-
-
-
+      .tarjeta.color-acento-botones.BG40.p-3(x="52.2%" y="38.2%" numero="2")
+        p.mb-0 #[b Problema:] si no puedes resolver un problema de tu cliente, entonces no hay venta posible. Si destapas problemas que puedes resolver, puedes aportar valor. Sondea cuáles son sus problemas, dificultades, insatisfacciones. De esta manera, descubrirás sus necesidades implícitas y dónde encaja tu oferta.
       
+      .tarjeta.color-acento-botones.BG40.p-3(x="70.9%" y="50.1%" numero="3")
+        p.mb-0 #[b Implicación:] estas preguntas toman un problema del cliente y exploran sus efectos o consecuencias. Le ayudan a comprender la seriedad o urgencia del problema. Agrandan el tamaño del problema en su imaginación. No te pases pintando escenarios apocalípticos, porque puedes deprimir o espantar al cliente. En cuanto comprenda las implicaciones del problema pasa sin regodearte a la siguiente fase de preguntas.
+      
+      .tarjeta.color-acento-botones.BG40.p-3(x="54.8%" y="62%" numero="4")
+        p.mb-0 #[b Necesidad / Beneficio:] muestra el valor de tu solución ante los ojos del cliente. Se centran en los aspectos positivos de tu solución que combaten los efectos negativos del problema. Ayudan a reenfocar la atención del cliente en la solución más que en el problema. Además, hacen que sea el cliente quien cite las ventajas de la solución en lugar de hacerlo tú mismo. Las preguntas de necesidad/beneficio reducen las objeciones.  
+    
+  .container.bg-white.BRtarjetaBtn.p-4.p-md-5
 
+    #t1_6.titulo-segundo.color-acento-contenido
+      h2 1.6 Venta consultiva
+    
+    p.mb-4 La venta consultiva se realiza en una venta que toma tiempo en tomar la decisión de compra, la venta de computadores, electrodomésticos, donde se necesita asesoría y un debido cumplimiento según las necesidades del cliente y recursos.
 
+    .cajon.color-acento-contenido.BG30.mb-4.p-4
+      p.mb-0 “La venta consultiva es un tipo de venta en la que el vendedor también actúa como consultor. Más que vender a toda costa, el profesional escucha al posible cliente, comprende sus necesidades y buscar conjuntamente la solución más adecuada” (RD Station, 2020).
+    
+    .Bf11.mb-5
+      .row.align-items-center.justify-content-center.position-relative
+        .col-lg-4.mb-4.mb-lg-0
+          p El proceso de la venta consultiva sigue el mismo proceso del proceso de la venta:
+        .col-lg-1
+        .col-lg-6.ps-4.py-5
+          ul.lista-ul--color.Clist01.mb-4
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Prospección.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Acercamiento.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Entrevista.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Presentación y demostración.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Negociación.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Cierre.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Posventas y relaciones a largo plazo.
+          h4 Y por sus características:
+          ul.lista-ul--color.Clist01.mb-0
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Tiene mayor aceptación entre los clientes.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0Genera confianza y fidelidad.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0Promueve el boca a boca.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0Trae clientes más fieles.
+            li.mb-0
+              i.fas.fa-check
+              p.mb-0Evita la cancelación de pedidos.
+    
+    h4.text-center.mb-3 Las técnicas para utilizar en la venta consultiva, son:
 
+    .row.justify-content-around.mb-4
+      .col-md-4
+        figure
+          img.Hdf2.mb-4(src='@/assets/curso/tema1/img26.svg', alt='')
+        h4 Cross selling o venta cruzada
+        p Esta técnica se aplica cuando el cliente ha aceptado la compra, entonces se le ofrecen productos compatibles. Ejemplo: el cliente compra un computador de mesa, se le ofrece el mueble, la impresora.
+      .col-md-4
+        figure
+          img.Hdf2.mb-4(src='@/assets/curso/tema1/img27.svg', alt='')
+        h4 Upselling o venta adicional 
+        p Esta técnica se aplica cuando el cliente desea un producto ya referenciado por él y ha aceptado la compra, entonces se le presenta otro artículo con las mismas características con mayor valor agregado y más costoso.
+    
+    #t1_7.titulo-segundo.color-acento-contenido
+      h2 1.7 Clínicas de venta
+    
+    p.mb-4 Es una actividad de capacitación que implementan las empresas para mantener la fuerza de ventas en las habilidades de la técnica y el proceso de la venta adoptado por la empresa. Su aplicación se realiza por medio de juegos de roles y dramatizaciones para mantener su desempeño. Las clínicas de ventas sirven también para que los vendedores cuenten sus experiencias en la venta y corrijan posibles errores en la práctica. 
 
+    h4 Los tipos son:
+
+    ul.lista-ul--color.Clist01.mb-5
+        li.mb-2
+          i.fas.fa-check
+          p.mb-0 Clínicas para el cierre de ventas.
+        li.mb-2
+          i.fas.fa-check
+          p.mb-0 Clínicas para el abordaje de un cliente.
+        li.mb-2
+          i.fas.fa-check
+          p.mb-0 Clínica para la presentación de un producto o servicio.
+        li.mb-2
+          i.fas.fa-check
+          p.mb-0 Clínica para mejorar el uso del lenguaje (corporal y verbal).
+        li.mb-2
+          i.fas.fa-check
+          p.mb-0 Clínicas para el manejo de objeciones.
+        li.mb-2
+          i.fas.fa-check
+          p.mb-0 Clínicas para la atención telefónica de un cliente.
+    
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-3.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema1/img28.svg', alt='')
+        .col-lg-9
+          .bloque-texto-a__texto.p-4
+            h4.mb-4 ¿Cómo organizar una clínica de ventas?
+            p.mb-0 Es recomendable trabajar con los roles de diferentes tipos de clientes; por cada tipo de cliente se debe elaborar un guion a seguir por los vendedores que realizan la actividad. Para realizar seguimiento a la actividad se debe hacer una lista de chequeo con indicadores que expresen el comportamiento de los vendedores en la actividad.
+    
+    h4.mb-5 Por ejemplo, se puede trabajar bajo roles como los siguientes:
+
+    .row.mb-4
+      .col-lg-4.mb-4.mb-lg-0.H01
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p01.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center Amable
+      
+      .col-lg-4.mb-4.mb-lg-0.H01
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p02.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center Dominante
+
+      .col-lg-4.H01
+        .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p03.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center Distraido
+    
+    .row.mb-4
+      .col-lg-4.H01
+        .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p04.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center Desubicado
+      
+      .col-lg-4.mb-4.mb-lg-0.H01
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p05.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center Reservado
+      
+      .col-lg-4.mb-4.mb-lg-0.H01
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p06.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center indeciso
+    
+    .row.mb-4
+      .col-lg-4.mb-4.mb-lg-0.H01
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p07.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center Exigente
+
+      .col-lg-4.H01
+        .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p08.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center Impaciente
+      
+      .col-lg-4.mb-4.mb-lg-0.H01
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p09.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center Negativo
+    
+    .row.mb-4
+      .col-lg-4.H01
+        .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p10.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center Conflictivo
+      
+      .col-lg-4.mb-4.mb-lg-0.H01
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/p11.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center.justify-content-center
+              h1.text-center Negociador
+    
+    #t1_8.titulo-segundo.color-acento-contenido.pt-5
+      h2 1.8 Manejo de objeciones
+    
+    p.mb-4 Las objeciones deben verse como algo normal en el proceso de la venta, ocurren a cada momento, y el vendedor consciente de esto debe estar preparado y anticiparse a responder esas preguntas antes que las hagan, por eso es fundamental el conocimiento de las necesidades del cliente. Se considera que entre menos preguntas la labor de ventas es más eficiente. Según Artal (2010, p. 324), “una objeción es en realidad una oportunidad”, en ella el vendedor debe ver la oportunidad de tener mejores relaciones con el cliente y asegurar la venta.
+
+    p.mb-5 Responder una objeción se convierte en una habilidad del vendedor y esas habilidades se adquieren en el entrenamiento constante y las clínicas de ventas. Hair et al. (2010, p. 103), aportan las siguientes técnicas acompañadas de frases de enlace o acciones para iniciar la objeción:    
+  
+    .row.gx-3.mb-4.justify-content-center
+      .col-4.mb-4
+        .BG04.p-5.h-100
+          h4 Estrategias de evasión
+          p.mb-2 Ahora llegaré a eso.
+          p.mb-0 Dejar pasar. 
+      .col-4.mb-4
+        .BG03.p-5.h-100
+          h4 Estrategias de proporcionar pruebas
+          p.mb-2 Antecedentes.
+          p.mb-2 Demostración.
+          p.mb-0 Proponer uso de pruebas.
+      .col-4.mb-4
+        .BG01.p-5.h-100
+          h4 Estrategias de negación
+          p.mb-2 Antecedentes.
+          p.mb-2 Negación indirecta.
+          p.mb-0 Negación directa.
+      
+      .col-4.mb-4
+        .BG011.p-5.h-100
+          h4 Estrategias de compensación
+          p.mb-2 Boomerang.
+          p.mb-2 Compensación o contrapeso.
+          p.mb-2 Convenir o neutralizar.
+          p.mb-0 Seguir el humor.
+      .col-4.mb-4
+        .BG10.p-5.h-100
+          h4 Estrategias de cambio de enfoque
+          p.mb-2 Producto alterno.
+          p.mb-2 Siento, sentí, descubrí.
+          p.mb-2 Comparación o contraste.
+          p.mb-0 Respuesta con una pregunta.
+    
+    p.mb-0 #[b Tenga presente que:] el manejo de objeciones es una habilidad y solo se adquiere con la práctica permanente.
   
 </template>
 
