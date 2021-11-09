@@ -271,7 +271,7 @@
 
     p.mb-4 La venta interna adquiere la forma de:
     
-    .row
+    .row.mb-4
       .col-md-6
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Venta de mostrador")
@@ -294,8 +294,146 @@
             p.mb-0 Esta es una venta ya muy poco utilizada, generalmente se hace en frío, es decir, visitar locales o residencias sin previo aviso; últimamente se realiza como una actividad promocional temporal.
           div(titulo="Venta ambulante")
             p.mb-0 Es una venta que se realiza temporalmente en algunos puntos seleccionados para vender productos agrícolas o de la canasta familiar, también son puestos móviles algo permanentes. Generalmente no cuentan con permisos locales.
-      .col-md-6.bgImg01.BR01
+      .col-md-6.bgImg01.BR01.mb-3
+    
+    .row.justify-content-around.mb-4
+      .col-md-4
+        figure
+          img.Hdf2.mb-4(src='@/assets/curso/tema1/img13.svg', alt='Venta multinivel')
+        h4 Venta multinivel
+        p Está conformada por una red de personas que compran a la empresa y les conceden un código con el cual pueden distribuir sus productos con otras personas que también ganan en la venta.
+      .col-md-4
+        figure
+          img.Hdf2.mb-4(src='@/assets/curso/tema1/img14.svg', alt='Venta online o comercio electrónico')
+        h4 Venta multinivel
+        p Este tipo de ventas hace uso del internet y la web para realizar transacciones de solicitud y pago de negocios (Mejía, 2017, p. 24).
+    
+    #t1_3.titulo-segundo.color-acento-contenido
+      h2 1.3 Proceso de la venta
+    
+    p.mb-4 Luego que la empresa mediante la aplicación de unas técnicas de segmentación para determinar el o los mercados objetivos (es bueno recordar que la empresa puede segmentar y ver que existen muchos segmentos a los cuales llegarle, pero ella escoge, según sus recursos, los mejores segmentos), haber definido cómo quiere posicionarse en esos mercados, la comunicación que quiere dirigir a esos segmentos para darse a conocer, es el momento de convertir en realidad lo plasmado en el plan de mercadeo.
+
+    p.mb-4 Pero realizar la venta involucra realizar un proceso de parte del vendedor y la empresa, debido a que se debe definir la mejor manera de realizar la venta así como preparar y brindar la adecuación necesaria para que esto se lleve a cabo. Realizar la venta es una disciplina que se debe seguir de manera organizada para lograr un nivel de desempeño esperado por la empresa. 
+
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-3.mb-4.mb-lg-0
+          h1.mb-0 ¿Qué es el proceso de la venta?
+        .col-lg-9
+          .bloque-texto-a__texto.p-4
+            p.mb-0 De acuerdo con Inboundcycle es “el proceso de venta es la sucesión de pasos que una empresa realiza desde el momento en que intenta captar la atención de un potencial cliente hasta que la transacción final se lleva a cabo”. 
+
+    p.mb-4 El proceso de la venta, según los postulados de Hair, Anderson, Mehta y Babin (2010, p. 92), tiene las siguientes fases:
+
+    .titulo-sexto.color-acento-botones
+      h5 Figura 2.
+      span El proceso de la venta
+    figure.mb-5
+      img.mb-4(src='@/assets/curso/tema1/img15.svg', alt='proceso de la venta')
+      figcaption Nota. Adaptada de Hair et al (2010).
+    
+    p.mb-5 Cada una de las fases mencionadas en el ciclo de la venta, tiene sus propios procesos, los cuales se mencionan a continuación:
+
+    #MapaGroup02
+      div
+        button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse01' aria-expanded='true' aria-controls='.multi-collapse01')
+          h2.mb-0 Prospección
+      
+      .multi-collapse01.collapse.show(data-bs-parent='#MapaGroup02')
+        p.mb-4 La venta se inicia con la búsqueda permanente de nuevos clientes, la empresa cuenta con:
+
+        ul.lista-ul--color.mb-0
+          li.mb-2
+            i.fas.fa-check
+            p.mb-0 #[b Clientes actuales:] son los clientes que actualmente le compran a la empresa.
+          li.mb-2
+            i.fas.fa-check
+            p.mb-0 #[b Clientes potenciales:] son aquellos que están en posición de comprarle pero que aún no lo han hecho. 
         
+        p.mb-4 El esfuerzo de la prospección es identificar y capturar a esos clientes y llevarlos a otros procesos en el ciclo de la venta. Estas etapas corresponden, según Torres (2014) a:
+
+        .row.gx-3.mb-5
+          .col-4.mb-4.mb-lg-0.h-100
+            .BG01.p-5
+              h4 Etapa 1
+              p.mb-0 Identificar a los posibles clientes en perspectiva.
+          .col-4.mb-4.mb-lg-0.h-100
+            .BG03.p-5
+              h4 Etapa 2
+              p.mb-0 Calificar a los candidatos en función de su potencial de compra.
+          .col-4
+            .BG04.p-5.h-100
+              h4 Etapa 3
+              p.mb-0 Elaborar una lista de clientes en perspectiva.
+        
+        p.mb-4 Siguiendo a Globalkan (2021), los diferentes tipos de prospectos por su personalidad, que son importantes que el vendedor conozca y tenga claro cómo enfrentarlos, son:
+
+        figure.mb-5
+          img.mb-4(src='@/assets/curso/tema1/img16.svg', alt='Prospección')
+          figcaption Nota: cada uno de estos clientes tiene unos comportamientos y su manera de tratarlos para que sea favorable a la venta.
+      
+      div
+        button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse02' aria-expanded='false' aria-controls='.multi-collapse02')
+          h2.mb-0 Acercamiento
+      
+      .multi-collapse02.collapse(data-bs-parent='#MapaGroup02')
+        p.mb-4 Cuando el vendedor tiene la lista o base de datos de los prospectos que le servirán al propósito de la venta, se pasa a la etapa de acercamiento, donde es el momento de recopilar información detallada de cada prospecto. Hair et al. (2010), recomienda los siguientes pasos:
+
+        .row.justify-content-center
+          .col-lg-10
+            PasosA.color-primario.mb-5(tipo="n")
+              div
+                h3 Preparación de la visita inicial.
+                p  Buscar hacer contacto enviándole información del producto o la empresa.
+              div
+                h3 Buscar establecer la cita de ventas.
+                p  Puede hacerle una llamada, o enviarle un correo notificando al cliente, solicitar su autorización de visita.
+              div
+                h3 Buscar información específica del cliente.
+                p  Información particular que no se logró en la prospección, información referente a su comportamiento comercial, sus experiencias.
+              div
+                h3 Identificar las necesidades del cliente.
+                p   Esto es importante pues permite ir con mejores argumentos al posible cliente. Conocer hora en que puede recibir, que referencias similares utiliza.
+              div
+                h3 Preparar la presentación de ventas.
+                p  Planear y ensayar su enfoque para el prospecto.
+        
+        p.mb-5 Siguiendo estos pasos está listo para enfrentarse a los diferentes prospectos con alta probabilidad de éxito.
+      
+      div
+        button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse03' aria-expanded='false' aria-controls='.multi-collapse03')
+          h2.mb-0 Entrevista
+      
+      .multi-collapse03.collapse(data-bs-parent='#MapaGroup02')
+        p.mb-4 En esta etapa el vendedor debe estar muy bien preparado, teniendo en cuenta las recomendaciones anteriores, un error puede dañar el trabajo previo y perderse tiempo y dinero. Lo más importante aquí es conocer al cliente, romper el hielo y procurar corroborar las necesidades del cliente de manera presencial.
+
+        p.mb-4 #[b El vendedor debe tener en cuentas en la presentación del portafolio de productos tres aspectos importantes:]
+
+        figure.mb-5
+          img.mb-4(src='@/assets/curso/tema1/img17.svg', alt='Prospección')
+        
+        h3.text-center.mb-4 Existen tres tipos presentaciones:
+
+        .row.gx-3.mb-5
+          .col-4.mb-4.mb-lg-0
+            .BG01.p-5.h-100
+              h4 De memoria
+              p.mb-0 El vendedor actúa de manera mecánica, no permite la flexibilidad ni el manejo de la presentación. 
+          .col-4.mb-4.mb-lg-0
+            .BG03.p-5.h-100
+              h4 Pincelada
+              p.mb-0 En esta se elabora un resumen de los puntos importantes de la presentación, es más flexible que la anterior. 
+          .col-4
+            .BG04.p-5.h-100
+              h4 Programada
+              p.mb-0 El vendedor se apoya en ayudas que le permitan hacer mejor su presentación. Puede utilizar material audiovisual (folletos publicitarios, catálogos, vídeos, muestras del producto), y utilizar plataformas sincrónicas de ser necesario. 
+
+
+
+
+
+
+
 
           
 

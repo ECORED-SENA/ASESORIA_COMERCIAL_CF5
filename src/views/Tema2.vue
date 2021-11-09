@@ -58,7 +58,7 @@
           p.mb-0 Este pago se puede realizar de contado o en efectivo. 
 
       .col-md-6.col-lg-3
-        .BG01.h-100.p-4
+        .BG011.h-100.p-4
           figure.mb-4
             img.w-75(src='@/assets/curso/tema2/img05.svg', alt='El bien o servicio')
           h4 El bien o servicio
