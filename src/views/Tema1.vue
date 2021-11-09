@@ -426,7 +426,270 @@
           .col-4
             .BG04.p-5.h-100
               h4 Programada
-              p.mb-0 El vendedor se apoya en ayudas que le permitan hacer mejor su presentación. Puede utilizar material audiovisual (folletos publicitarios, catálogos, vídeos, muestras del producto), y utilizar plataformas sincrónicas de ser necesario. 
+              p.mb-0 El vendedor se apoya en ayudas que le permitan hacer mejor su presentación. Puede utilizar material audiovisual (folletos publicitarios, catálogos, vídeos, muestras del producto), y utilizar plataformas sincrónicas de ser necesario.
+    
+        .cajon.color-primario.BG10.p-5.mb-5
+          .row.align-items-end
+            .col-lg-9.mb4.mb-lg-0
+              p.mb-4 #[b Entre otras recomendaciones a implementar, se tienen:]
+              ul.lista-ul--color.Clist01.mb-4
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Convertir las ventajas del producto en beneficios para el prospecto. 
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Detectar en las necesidades de los clientes cuáles se asocian más a las ventajas del producto y repetirlas. 
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Participación del prospecto en la demostración.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 La posición que debe mantener con el prospecto debe ser en ángulo de 90º. 
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Estar atento a las emociones del prospecto y dirigirse ahí.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Escuchar con cuidado las respuestas verbales y corporales.
+              .mb-4 #[b Y las labores que más se realizan en una demostración y que el vendedor debe tener en cuenta, son:]
+              ul.lista-ul--color.Clist01
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Cada producto y servicio tiene sus propias características y beneficios.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Muestra del producto.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Prueba.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Degustación. 
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Observación. 
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Explicación de características adicionales. 
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Responder inquietudes. 
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Pruebas de laboratorios.
+                li.mb-0
+                  i.fas.fa-check
+                  p.mb-0 El vendedor debe apoyarse también en las técnicas de ventas necesarias y adecuadas para una venta eficaz. 
+            .col-lg-3
+              figure
+                img(src='@/assets/curso/tema1/img18.svg', alt='')
+      
+      div
+        button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse04' aria-expanded='false' aria-controls='.multi-collapse04')
+          h2.mb-0 Negociación
+      
+      .multi-collapse04.collapse(data-bs-parent='#MapaGroup02')
+        .row.align-items-center.mb-5
+          .col-lg-4.mb-4-mb-lg-0
+            figure
+              img(src='@/assets/curso/tema1/img19.svg', alt='Negociación')
+          .col-lg-8.p-5
+            p.mb-0 En la fase anterior, los clientes aún no han decidido la compra, pero pueden surgir una serie de inquietudes y preguntas que deben ser resueltas con contundencia. Se dice de manera coloquial que la venta se inicia cuando el prospecto se niega o dice “No”. Esa serie de inquietudes que tiene el cliente sobre el producto se llaman objeciones, y son, de acuerdo con Hair et al. (2010): “Simplemente una solicitud de más información, de manera que el prospecto pueda justificar una decisión de compra”.
+        
+        .Bf11.mb-5
+          .row.align-items-center.justify-content-center.position-relative
+            .col-lg-5.mb-4.mb-lg-0
+              p Una excelente presentación lleva en muchos casos a pocas preguntas de parte del cliente y a una concreción rápida de la venta. Hair et al. (2010) señalan las siguientes objeciones:
+            .col-lg-1
+            .col-lg-5.ps-4.py-5
+              ul.lista-ul--color.Clist01.mb-0
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Objeciones al producto.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Objeciones al precio.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Objeciones a la promoción.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Objeciones a la distribución.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Objeciones de capital.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Objeciones a la fuente.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Objeciones a las necesidades.
+                li.mb-0
+                  i.fas.fa-check
+                  p.mb-0 Objeciones latentes.
+        
+        p.mb-4 Es así como el vendedor debe determinar cuáles son los obstáculos que impiden a sus posibles clientes comprar, para superarlos de forma inmediata.
+      
+      div
+        button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse05' aria-expanded='false' aria-controls='.multi-collapse05')
+          h2.mb-0 Cierre de la venta
+      
+      .multi-collapse05.collapse(data-bs-parent='#MapaGroup02')
+        p.mb-4 El principal objetivo de la venta es finalizar exitosamente la negociación, en ella ocurren los protocolos necesarios para que esos acuerdos tengan un carácter legal, donde el vendedor logre la solicitud firmada de la orden de pedido, y este paso igual necesita que el vendedor tenga destrezas y técnicas en el cierre de la venta.
+
+        .Bf11.mb-5
+          .row.align-items-center.justify-content-center.position-relative
+            .col-lg-5.mb-4.mb-lg-0
+              p A continuación, Hair et al. (2010, p.105) consideran varios tipos de cierre de la venta:
+            .col-lg-1
+            .col-lg-5.ps-4.py-5
+              ul.lista-ul--color.Clist01.mb-0
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Cierres de aclaración.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Cierres psicológicos.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Cierres directos.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Cierres de concesión.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Cierres de la venta perdida.
+    
+      div
+        button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse06' aria-expanded='false' aria-controls='.multi-collapse06')
+          h2.mb-0 Posventa y relaciones a largo plazo
+      
+      .multi-collapse06.collapse(data-bs-parent='#MapaGroup02')
+        .row.align-items-center.mb-5
+          .col-lg-4.mb-4-mb-lg-0
+            figure
+              img(src='@/assets/curso/tema1/img20.svg', alt='Posventa y relaciones a largo plazo')
+          .col-lg-8.p-5
+            p.mb-0 Las actividades de posventa consisten en continuar el esfuerzo inicial de ventas mediante acciones posteriores al cierre.         
+        .Bf11.mb-5
+          .row.justify-content-center.position-relative
+            .col-lg-5.mb-4.mb-lg-0.pt-5
+              p Para alcanzar ese objetivo, es necesario dar una gama de servicios complementarios, que hagan que la relación sea muy fuerte y no se pierda jamás, como son:
+            .col-lg-1
+            .col-lg-5.ps-4.py-5
+              ul.lista-ul--color.Clist01.mb-4
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Garantía.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Plazos de entrega.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Cartera.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Facturación.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Asesoría permanente.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-2 Servicio técnico.
+              p.mb-4 Además de: 
+              ul.lista-ul--color.Clist01.mb-0
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Ser agradecido en la compra.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Verificar que el cliente reciba su compra.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Evidenciar la instalación.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Hacer venta cruzada.
+                li.mb-2
+                  i.fas.fa-check
+                  p.mb-0 Lograr referidos.
+  
+    #t1_4.titulo-segundo.color-acento-contenido
+      h2 1.4 Estrategias de ventas
+    
+    p.mb-4 Son esas acciones que buscan el cumplimiento de los objetivos que se propone la empresa para alcanzar en la venta de su portafolio de productos. De acuerdo con Igape (s.f.), la estrategia es:
+
+    .cajon.color-primario.BG10.p-5.mb-4
+      p.mb-4 “Un conjunto consciente, racional y coherente de decisiones sobre acciones a emprender y sobre recursos a utilizar, que permite alcanzar los objetivos finales de la empresa u organización”.
+    
+    p.mb-4 Para mayor comprensión del tema, se invita a revisar el siguiente video:
+
+    .video.mb-5
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/mwk2MnDXtPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    #t1_5.titulo-segundo.color-acento-contenido
+      h2 1.5 Técnicas de la venta
+    
+    p.mb-4 Son una serie de procedimientos, acciones y protocolos para lograr el resultado de ventas. Estas técnicas de ventas acompañan al vendedor al realizar el proceso de la venta dependiendo el tipo de venta: técnica o no técnica. A continuación, pasaremos a estudiar cada una.
+
+    .Bf02.p-4.mb-5
+      .position-relative
+        h4 Técnica de venta basada en el método AIDA
+        p.mb-4 En el momento en que el vendedor realiza cada una de las etapas del proceso de la venta y llega a la etapa de entrevista o negociación, deberá realizar una conversación con el prospecto y esta conversación estará apoyada por una técnica en este caso el método AIDA. Esta conversación puede realizarse de manera presencial, telefónica o virtual. 
+        p.mb-0 El modelo que permite presentar el producto mediante un proceso para de esa manera, poder obtener la respuesta deseada de su público objetivo es el método AIDA:
+    
+    .row.align-items-center.gx-0.mb-4
+      .col-md-3
+        .BG04.p-4
+          p.mb-0.Tst01.text-center AIDA
+      .col-md-5.BG40.p-5
+        p #[b A]tención - Atraer la #[b Atención] del cliente.
+        p #[b I]nterés - Crear y retener el #[b Interés] del cliente
+        p #[b D]eseo - Provocar el #[b Deseo] de adquirir el producto.
+        p #[b A]cción - Conseguir la #[b Acción] de compra.
+    
+    p.mb-4 A continuación, se presenta gráficamente el método.
+
+    .row.justify-content-center      
+      .col-lg-7
+        .titulo-sexto.color-acento-botones
+          h5 Figura 3.
+          span El método AIDA
+        figure.mb-5
+          img.mb-4(src='@/assets/curso/tema1/img21.svg', alt='proceso de la venta')
+    
+    p.mb-4 El proceso de la venta debe estar en sintonía con el proceso de compra del cliente, este ciclo de acuerdo con Antevenio (2020), consta de cuatro fases por las que atraviesa un cliente, desde que se da cuenta de su necesidad, hasta que tiene la capacidad de satisfacerla comprando el producto o servicio, las que se pueden interrelacionar con el método AIDA, como se muestra a continuación.
+
+    .row.justify-content-center
+      .col-lg-7
+        .titulo-sexto.color-acento-botones
+          h5 Figura 4.
+          span El proceso de compra y el método AIDA 
+        figure.mb-5
+          img.mb-4(src='@/assets/curso/tema1/img22.svg', alt='compra y el método AIDA')
+    
+    p.mb-4 A continuación se presenta la descripción de cada uno de los elementos que atienden al Modelo AIDA:
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
 
 
 
