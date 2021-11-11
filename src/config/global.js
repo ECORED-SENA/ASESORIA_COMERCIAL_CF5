@@ -35,26 +35,44 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
+            titulo: 'Clasificación de vendedores',
             hash: 't1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
+            titulo: 'Proceso de la venta',
             hash: 't1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
+            titulo: 'Estrategias de ventas',
             hash: 't1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Tablas',
+            titulo: 'Técnicas de la venta',
             hash: 't1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Venta consultiva',
+            hash: 't1_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.7',
+            titulo: 'Clínicas de venta',
+            hash: 't1_7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.8',
+            titulo: 'Manejo de objeciones',
+            hash: 't1_8',
           },
         ],
       },
@@ -100,12 +118,12 @@ export default {
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      //{
+      //  nombreRuta: 'actividad',
+      //  icono: 'far fa-question-circle',
+      //  titulo: 'Actividad didáctica',
+      //  desarrolloContenidos: true,
+      //},
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -136,139 +154,131 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Antevenio. (2020). Los mejores ejemplos del método AIDA para inspirarte.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.antevenio.com/blog/2020/01/los-mejores-ejemplos-del-metodo-aida-para-inspirarte/',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Artal, C., M. (2010). Dirección de ventas. Organización del departamento de ventas y gestión de vendedores. Alfaomega.',
+    },
+    {
+      referencia:
+        'DocuSign. (2020). 5 estrategias clave para facilitar el cierre de ventas.',
+      link: 'https://www.docusign.mx/blog/cierre-de-ventas',
+    },
+    {
+      referencia:
+        'GestioPolis.com Experto. (2020). Documentos comerciales. Qué son, tipos, características y ejemplos.',
+      link: 'https://www.gestiopolis.com/que-son-documentos-comerciales/',
+    },
+    {
+      referencia:
+        'Globalkam. (2021). Tipos de clientes, cómo identificarlos y tratarlos para conectar. Globalkam.',
+      link: 'https://globalkamconsultoresretail.com/tipos-de-clientes/',
+    },
+    {
+      referencia:
+        'González, A., M. R. (2021). La comunicación asertiva, una habilidad fundamental para el convivir. Universidad Central.',
+      link: 'https://www.ucentral.edu.co/noticentral/comunicacion-asertiva',
+    },
+    {
+      referencia:
+        'Hair, J., Anderson, R., Mehta, R., y Babin, B. (2010). Administración de ventas. Cengage Learning.',
+    },
+    {
+      referencia:
+        'Igape-BicGalicia. (s. f.). Cómo elaborar un plan de marketing.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://www.igape.es/es/component/k2/item/417-como-elaborar-un-plan-de-marketing',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Jobber, D., y Lancaster, G. (2021). Administración de ventas. Pearson Educación.',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Lobato, F., De la Mata, M., y Rodríguez, S. (2010). Operaciones administrativas de compra-venta. MacMillan Profesional.',
+    },
+    {
+      referencia:
+        'Morfin, A. (2014). La importancia de las ventas en las empresas.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://es.scribd.com/document/339249965/La-Importancia-de-Las-Ventas-en-Las-Empresas',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Station, R. D. (2020). Todo sobre la venta consultiva: qué es, ventajas, pasos, cómo hacerla y habilidades para trabajar en el área.',
+      link: 'https://www.rdstation.com/co/blog/todo-sobre-la-venta-consultiva/',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Sy Corvo, H. (2019). Transacciones comerciales: características y ejemplos. Lifeder.',
+      link: 'https://www.lifeder.com/transacciones-comerciales/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Torres, V. (2014). Administración de ventas. Grupo Editorial Patria.',
     },
     {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+      referencia: 'Westreicher, G. (2020). Ventas.',
+      link: 'https://economipedia.com/definiciones/ventas.html',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Proceso de ventas',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        '“el proceso de venta es la sucesión de pasos que una empresa realiza desde el momento en que intenta captar la atención de un potencial cliente hasta que la transacción final se lleva a cabo” (Inboundcycle, 2020).',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Clínica de ventas',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'actividad de capacitación que implementan las empresas para mantener la fuerza de ventas en las habilidades de la técnica y el proceso de la venta adoptado por la empresa.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Cierre de ventas',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        '“El cierre de ventas se refiere a una parte del proceso de ventas donde (después de haber presentado el producto o servicio y aclarado las dudas existentes) se tiende a cerrar la negociación y el prospecto de venta se convierte en cliente” (DocuSign, 2020).',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Comunicación asertiva',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'tipo de comunicación que permite dialogar con calma y respeto, expresando lo que queremos decir, pero sin herir los sentimientos de las otras personas (González, 2021).',
     },
     {
-      termino: 'Moda',
+      termino: 'Venta consultiva',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'tipo de venta en la que el vendedor también actúa como consultor. Más que vender a toda costa, el profesional escucha al posible cliente, comprende sus necesidades y buscar conjuntamente la solución más adecuada (Station, 2020).',
     },
     {
-      termino: 'Diseña',
+      termino: 'Técnicas de venta',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'serie de procedimientos, acciones y protocolos para lograr el resultado de ventas.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Westreicher, G. (2020). Ventas. ',
+      tipo: 'Página Web',
+      link: 'https://economipedia.com/definiciones/ventas.html',
     },
     {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+      texto: 'Coll, F. (2020). Transacción comercial.',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      link: 'https://economipedia.com/definiciones/transaccion-comercial.html',
+    },
+    {
+      texto: 'Peiró, R. (2021). Comunicación.',
+      tipo: 'Página web',
+      link: 'https://economipedia.com/definiciones/comunicacion.html',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
+        'ConectaDEL. (2021). Herramientas básicas para la comunicación aplicada a proyectos digitales y presenciales.',
       tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link:
+        'http://www.conectadel.org/herramientas-basicas-para-la-comunicacion-aplicada-a-proyectos-digitales-y-presenciales/',
     },
   ],
   creditos: {
@@ -284,7 +294,34 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zenith Chinchilla Ruedas',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Javier del Carmen Martínez Pérez',
+        cargo: 'Instructor',
+        centro: 'Centro de Comercio y Servicios - Regional Bolívar',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -292,7 +329,7 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
@@ -300,28 +337,69 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Carlo Julián Ramírez Benítez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Caceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Villamizar Lizcano',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jessica Moreno Realpe',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Diego Fernando Velasco Güiza',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Rafael Augusto Mantilla Lopez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

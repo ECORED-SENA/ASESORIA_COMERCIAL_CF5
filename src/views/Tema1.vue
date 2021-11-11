@@ -50,13 +50,14 @@
           img(src='@/assets/curso/tema1/img03.svg', alt='Etapas de las ventas')
       .col-lg-8.mb-4
         .row.justify-content-center.align-items-stretch.gx-4
-          .col-md-4.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0(@mouseover="mostrarIndicador = false")
             button.BG01Hov.BR01.p-4.h-100.d-flex.align-items-center.justify-content-center.w-100(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
               h4.text-center.mb-0 Etapa de preventa
-          .col-md-4.mb-4.mb-md-0
-            button.BG04Hov.BR01.p-4.h-100.d-flex.align-items-center.justify-content-center.w-100(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2')
+          .col-md-4.mb-4.mb-md-0.position-relative(@mouseover="mostrarIndicador = false")
+            .indicador--click(v-if="mostrarIndicador")
+            button.BG04Hov.BR01.p-4.h-100.d-flex.align-items-center.justify-content-center.w-100(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2')              
               h4.text-center.mb-0 Etapa de venta
-          .col-md-4
+          .col-md-4(@mouseover="mostrarIndicador = false")
             button.BG03Hov.BR01.p-4.h-100.d-flex.align-items-center.justify-content-center.w-100(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='false' aria-controls='.multi-collapse3')
               h4.text-center.mb-0 Etapa de posventa
         
@@ -305,7 +306,7 @@
       .col-md-4
         figure
           img.Hdf2.mb-4(src='@/assets/curso/tema1/img14.svg', alt='Venta online o comercio electrónico')
-        h4 Venta multinivel
+        h4 Venta online o comercio electrónico
         p Este tipo de ventas hace uso del internet y la web para realizar transacciones de solicitud y pago de negocios (Mejía, 2017, p. 24).
     
     #t1_3.titulo-segundo.color-acento-contenido
@@ -342,7 +343,7 @@
       .multi-collapse01.collapse.show(data-bs-parent='#MapaGroup02')
         p.mb-4 La venta se inicia con la búsqueda permanente de nuevos clientes, la empresa cuenta con:
 
-        ul.lista-ul--color.mb-0
+        ul.lista-ul--color.mb-5
           li.mb-2
             i.fas.fa-check
             p.mb-0 #[b Clientes actuales:] son los clientes que actualmente le compran a la empresa.
@@ -373,7 +374,8 @@
           figcaption Nota: cada uno de estos clientes tiene unos comportamientos y su manera de tratarlos para que sea favorable a la venta.
       
       div
-        button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse02' aria-expanded='false' aria-controls='.multi-collapse02')
+        button.BG03.d-inline-block.p-4.mb-4.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse02' aria-expanded='false' aria-controls='.multi-collapse02' @mouseover="indicadorPersonal01 = false")
+          .indicador--hover(v-if="indicadorPersonal01")
           h2.mb-0 Acercamiento
       
       .multi-collapse02.collapse(data-bs-parent='#MapaGroup02')
@@ -395,8 +397,12 @@
                 h3 Identificar las necesidades del cliente.
                 p   Esto es importante pues permite ir con mejores argumentos al posible cliente. Conocer hora en que puede recibir, que referencias similares utiliza.
               div
-                h3 Preparar la presentación de ventas.
-                p  Planear y ensayar su enfoque para el prospecto.
+                h3 Identificar las características, las ventajas y los beneficios del producto.
+                p Esto dará seguridad en la presentación y demostración del producto
+              div
+                h3 Preparar la presentación de ventas
+              div
+                h3 Planear y ensayar su enfoque para el prospecto.
         
         p.mb-5 Siguiendo estos pasos está listo para enfrentarse a los diferentes prospectos con alta probabilidad de éxito.
       
@@ -528,7 +534,14 @@
                   i.fas.fa-check
                   p.mb-0 Objeciones latentes.
         
-        p.mb-4 Es así como el vendedor debe determinar cuáles son los obstáculos que impiden a sus posibles clientes comprar, para superarlos de forma inmediata.
+        .row.justify-content-center.mb-4
+          .col-lg-10
+            .bloque-texto-c.color-primario.BG01.p-4.mb-4
+              i.fas.fa-quote-right
+              p.mb-2 #[b Las objeciones comunes se refieren al precio, satisfacción con el proveedor actual, renuencia a tomar decisiones en el momento, no hay necesidad inmediata del producto, sentimientos negativos hacia el vendedor, entre otras.]
+              span - (Torres, 2014)
+
+        p.mb-5 Es así como el vendedor debe determinar cuáles son los obstáculos que impiden a sus posibles clientes comprar, para superarlos de forma inmediata.
       
       div
         button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse05' aria-expanded='false' aria-controls='.multi-collapse05')
@@ -1020,7 +1033,8 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    indicadorPersonal01: true,
   }),
   mounted() {
     this.$nextTick(() => {

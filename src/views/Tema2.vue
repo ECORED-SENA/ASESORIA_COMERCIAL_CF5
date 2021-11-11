@@ -19,6 +19,8 @@
           figure
             img(src='@/assets/curso/tema2/img01.svg', alt='Transacciones comerciales')
     
+    p.mb-4 Pero, ¿qué son las transacciones comerciales? 
+    
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-4
       .row.m-0.align-items-center.justify-content-between
         .col-lg-3.mb-4.mb-lg-0
@@ -261,19 +263,19 @@
           ul.lista-ul--color.mb-0
             li
               i.fas.fa-check
-              p Propuesta comercial.
+              p Propuesta comercial
             li
               i.fas.fa-check
-              p Lista de precios.
+              p Lista de precios
             li
               i.fas.fa-check
-              p La orden de pedido.
+              p La orden de pedido
             li
               i.fas.fa-check
-              p La remisión de la mercancía.
+              p La remisión de la mercancía
             li
               i.fas.fa-check
-              p Pólizas de seguros.
+              p Pólizas de seguros
             li
               i.fas.fa-check
               p La orden de cargue
@@ -343,7 +345,7 @@
 
     p.mb-5 Se recomienda archivar o guardar los documentos comerciales por diez (10) años desde la fecha de emisión del documento.
 
-    h4 Su importancia radica en las propiedades que tiene, a saber: 
+    h4.mb-5 Su importancia radica en las propiedades que tiene, a saber: 
 
     ul.lista-ul--color.mb-4
       li
@@ -391,35 +393,35 @@
     p.mb-4 Estas condiciones comerciales entre la empresa o vendedor y cliente o comprador que guiarán las relaciones, pueden ser:
 
     .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01
-      .tarjeta-numerada__numero
+      .tarjeta-numerada__numero.ColorEsp01
         .h2.text-white 1
       h4.mb-0 Los pedidos. 
       p.mb-0 Se fijará como será aceptado el pedido, quien lo firmará los y sellará, los plazos para ser entregados.
     
     .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01
-      .tarjeta-numerada__numero
+      .tarjeta-numerada__numero.ColorEsp01
         .h2.text-white 2
       h4.mb-0 Los precios y descuentos convenidos. 
       p.mb-0 Si los precios incluyen el transporte, los tipos de descuentos a otorgar, los impuestos según la ley.
     
     .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01
-      .tarjeta-numerada__numero
+      .tarjeta-numerada__numero.ColorEsp01
         .h2.text-white 3
       h4.mb-0 Los plazos de pago con las fechas y descuentos según el cumplimiento del pago. 
       p.mb-0 Ejemplo: plazo de 15 o 30 días a partir de la fecha de la factura con un descuento por pronto pago del 3 %.
 
     .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01
-      .tarjeta-numerada__numero
+      .tarjeta-numerada__numero.ColorEsp01
         .h2.text-white 4
       h4.mb-0 Reclamaciones por defectos de la mercancía.
 
     .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01
-      .tarjeta-numerada__numero
+      .tarjeta-numerada__numero.ColorEsp01
         .h2.text-white 5
       h4.mb-0 Los cupos de crédito otorgados según referencia comercial.
     
     .tarjeta-numerada.color-acento-contenido.py-4.px-5.h-100.Edit01.mb-5
-      .tarjeta-numerada__numero
+      .tarjeta-numerada__numero.ColorEsp01
         .h2.text-white 6
       h4.mb-0 Otros tipos de condiciones sobre fletes, despachos, a quien le hará el pago, entre otros.
 

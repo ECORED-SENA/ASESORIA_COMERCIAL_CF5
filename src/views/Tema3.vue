@@ -13,7 +13,7 @@
         .col-lg-8.mb-4.mb-lg-0
           p.mb-4 La comunicación es una actividad indispensable en los seres humanos, es la manera como se interactúa y se hace entender; en la empresa es un elemento indispensable en el crecimiento y desarrollo de su actividad, pues fija las políticas de manejo de la comunicación interna y externa. 
 
-          p.mb-0 Estas transacciones hacen referencia a toda actividad económica que se realiza entre las empresas a través de un conjunto de movimientos comerciales en el mercado, donde compradores y vendedores realizan intercambios para la satisfacción de sus necesidades. 
+          p.mb-0 Para mayor comprensión es necesario revisar el siguiente recurso, allí se encontrará el concepto, elementos esenciales, herramientas, tipos, funciones y herramientas de la comunicación.
 
         .col-8.col-lg-3
           figure
@@ -44,7 +44,7 @@
       .row.justify-content-center(numero="3" titulo="Herramientas")
         .col-lg-12.mb-4
           p.mb-4 Las herramientas más utilizadas para la comunicación de las personas y las organizaciones en actividades on-line y off-line aportadas por Conecta DEL (s. f.):
-        .col-lg-6.d-flex.flex-column.justify-content-between.mb-4.mb-lg-0
+        .col-lg-6.d-flex.flex-column.justify-content-between.mb-4
           div
             h4 Herramientas de comunicación personal
             ul.lista-ul--color.Clist01.mb-4
@@ -68,7 +68,7 @@
                 p.mb-0 Multimedia.
           figure
             img.w-75.mx-auto(src='@/assets/curso/tema3/img04.svg', alt='comunicación personal')  
-        .col-lg-6.d-flex.flex-column.justify-content-between.mb-4.mb-lg-0
+        .col-lg-6.d-flex.flex-column.justify-content-between.mb-4
           div
             h4 Herramientas de trabajo colectivo
             ul.lista-ul--color.Clist01.mb-4
@@ -98,8 +98,29 @@
                 p.mb-0 Dropbox.
           figure
             img.w-75.mx-auto(src='@/assets/curso/tema3/img06.png', alt='organización de tareas')
+      
+      .row.justify-content-center(numero="4" titulo="Funciones")
+        .col-lg-12.mb-4
+          p.mb-4 La comunicación en las organizaciones para Pérez et al. (2013) son las siguientes:
+          ul.lista-ul--color.Clist01.mb-4
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Motivar a los empleados en un clima laboral adecuado.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Brindar la información necesaria para la toma de decisiones.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Procurar el control y la ejecución de los planes y la conducta de sus miembros.
+            li.mb-2
+              i.fas.fa-check
+              p.mb-0 Expresar emociones ante logros y fracasos laborales.
+          .row.justify-content-center
+            .col-lg-10
+              figure
+                img.w-75.mx-auto(src='@/assets/curso/tema3/img07.svg', alt='Funciones')
     
-      .row.justify-content-center(numero="4" titulo="Tipos de comunicación ")
+      .row.justify-content-center(numero="5" titulo="Tipos de comunicación")
         .col-lg-12.mb-4
           p.mb-4 La comunicación es una variable estratégica en las organizaciones para comunicarse con sus públicos, de ella depende la toma de decisiones. De la habilidad de comunicación entre las dependencias y sus directivos depende el éxito de la empresa. Al respecto, Pérez et al. (2013) aportan la siguiente clasificación expresada en la tabla relacionada a continuación.
 
@@ -137,7 +158,7 @@
           figure
             img.w-75.mx-auto(src='@/assets/curso/tema3/img08.svg', alt='Tipos de comunicación')
     
-      .row.justify-content-center(numero="5" titulo="Comunicación interna")
+      .row.justify-content-center(numero="6" titulo="Comunicación interna")
         .col-lg-12.mb-4
           p.mb-4 Es la comunicación que se da al interior de la empresa, en ella se da la comunicación asertiva y la comunicación efectiva razón por la que la organización capacita sobre el tema para propiciar las buenas relaciones entre los empleados, entre los jefes y en los equipos de trabajo.     
           p.mb-4 #[b Comunicación efectiva.] Es tener la capacidad de escuchar y comprender el todo sobre la información y datos que se reciben. 
@@ -151,7 +172,7 @@
           p.mb-4 #[b Diagonal.] Este tipo de comunicación se da entre dependencias, sin importar los niveles jerárquicos.
           p.mb-0 #[b Reuniones de trabajo.] Estas reuniones son muy productivas para la empresa, en ella convergen la comunicación vertical y horizontal y se tomas decisiones importantes (p. 50).
       
-      .row(numero="6" titulo="Comunicación externa")
+      .row(numero="7" titulo="Comunicación externa")
         .col-lg-12.mb-4
           p.mb-4 Es la comunicación que se da entre los clientes de la empresa, sus proveedores, acreedores, sus socios, entidades sin ánimo de lucro, entidades del Gobierno y demás públicos interesados. 
           p.mb-4 La empresa puede dirigir su comunicación para buscar posicionamiento, dar a conocer sus marcas u otras áreas de interés comercial o relacional. La empresa realiza las siguientes clasificaciones de comunicación según Pérez et al. (2013):
@@ -176,7 +197,7 @@
           figure
             img(src='@/assets/curso/tema3/img09.svg', alt='Comunicación externa')
       
-      .row(numero="7" titulo="Medios de comunicación")
+      .row(numero="8" titulo="Medios de comunicación")
         .col-lg-12.mb-4
           p.mb-4 Estos son instrumentos utilizados por la empresa o la organización para dar a conocer sus mensajes, información y su información publicitaria, entre otros. La empresa utiliza estos medios de manera masiva utilizando medios off-line u on-line. 
         .col-lg-7.mb-4
@@ -216,7 +237,7 @@
           figure
             img(src='@/assets/curso/tema3/img08.svg', alt='Medios de comunicación')
       
-      .row(numero="8" titulo="Tipos de medios")
+      .row(numero="9" titulo="Tipos de medios")
         .col-lg-12.mb-4
           p.mb-4 Estos medios se clasifican en:
         .col-6.col-lg-3.mb-4.mb-lg-0
@@ -236,7 +257,7 @@
             img.Hdf1(src='@/assets/curso/tema3/img13.svg', alt='Medios alternativos')
           p.text-center.mb-0 Medios alternativos
       
-      .row.justify-content-center(numero="9" titulo="Comunicación con los clientes")
+      .row.justify-content-center(numero="10" titulo="Comunicación con los clientes")
         .col-lg-12.mb-4
           p.mb-4 En la comunicación de los vendedores con los clientes cara a cara, se dan dos situaciones que se deben tener en cuenta para definir una venta, no tiene sentido que se apliquen todas las técnicas de venta adecuadas, sino están apoyadas por un excelente lenguaje oral y corporal.
         .col-lg-5.d-flex.flex-column.justify-content-between.mb-4.mb-lg-0
@@ -251,7 +272,7 @@
           div
             h4.text-center Comunicación no verbal
       
-      .row.justify-content-center(numero="10" titulo="Comunicación oral")
+      .row.justify-content-center(numero="11" titulo="Comunicación oral")
         .col-lg-12.mb-0
           p.mb-4 La principal característica de este tipo de comunicación es la palabra hablada, para el vendedor es muy importante frente a la comunicación con los clientes, esto no significa que el vendedor tenga una labia espectacular, la recomendación es que el vendedor hable el 20 % y escuche el 80 %, esto es importante para con las preguntas correctas identificar las necesidades de los clientes y relacionarlas con los beneficios y ventajas del producto. 
           p.mb-4 De acuerdo con Pérez et al. (2013) entre los objetivos de la comunicación y deben ser tenidos en cuenta por el vendedor es:
@@ -272,7 +293,7 @@
               i.fas.fa-check
               p.mb-0 Divertir, entretener (p. 90).
       
-      .row.justify-content-center(numero="11" titulo="Formas de comunicación Oral")
+      .row.justify-content-center(numero="12" titulo="Formas de comunicación Oral")
         .col-lg-12.mb-0
           p.mb-4 Estas corresponden a la conversación en un entorno laboral según Pérez et al. (2012):
           ul.lista-ul--color.Clist01.mb-4
@@ -306,7 +327,7 @@
               i.fas.fa-check
               p.mb-0 Hacer retroalimentación o feedback.
       
-      .row(numero="12" titulo="Comunicación no verbal")
+      .row(numero="13" titulo="Comunicación no verbal")
         .col-lg-12.mb-4
           p.mb-4  Esta comunicación está formada por los movimientos, gestos, miradas y posturas del cuerpo a la hora de asumir una venta, en muchos casos una mala postura resulta en una venta no realizada, estas posturas pueden hacerse de manera involuntaria, conforme esté acostumbrado a la posición el cuerpo. 
           p.mb-4 #[b ¿Qué significa?] Que si la persona está acostumbrada a asumir posturas inadecuadas, en una actividad de venta el cuerpo asume de manera involuntaria la posición de costumbre.
