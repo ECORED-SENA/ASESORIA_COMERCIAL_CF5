@@ -43,7 +43,7 @@
       
       .row.justify-content-center(numero="3" titulo="Herramientas")
         .col-lg-12.mb-4
-          p.mb-4 Las herramientas más utilizadas para la comunicación de las personas y las organizaciones en actividades on-line y off-line aportadas por Conecta DEL (s. f.):
+          p.mb-4 Las herramientas más utilizadas para la comunicación de las personas y las organizaciones en actividades #[i on-line] y #[i off-line] aportadas por Conecta DEL (s. f.):
         .col-lg-6.d-flex.flex-column.justify-content-between.mb-4
           div
             h4 Herramientas de comunicación personal
@@ -199,7 +199,7 @@
       
       .row(numero="8" titulo="Medios de comunicación")
         .col-lg-12.mb-4
-          p.mb-4 Estos son instrumentos utilizados por la empresa o la organización para dar a conocer sus mensajes, información y su información publicitaria, entre otros. La empresa utiliza estos medios de manera masiva utilizando medios off-line u on-line. 
+          p.mb-4 Estos son instrumentos utilizados por la empresa o la organización para dar a conocer sus mensajes, información y su información publicitaria, entre otros. La empresa utiliza estos medios de manera masiva utilizando medios #[i off-line] u #[i on-line]. 
         .col-lg-7.mb-4
           p.mb-4 Existen divisiones de medios de comunicación generadas por la gestión del mercadeo. Es la comunicación que llega a un gran número de personas en un periodo de tiempo determinado; y los medios son:
           ul.lista-ul--color.Clist01.mb-4.mb-lg-0
@@ -325,7 +325,7 @@
               p.mb-0 Saber preguntar.
             li.mb-0
               i.fas.fa-check
-              p.mb-0 Hacer retroalimentación o feedback.
+              p.mb-0 Hacer retroalimentación o #[i feedback].
       
       .row(numero="13" titulo="Comunicación no verbal")
         .col-lg-12.mb-4

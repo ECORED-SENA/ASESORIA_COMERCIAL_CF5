@@ -106,7 +106,7 @@
       h4 Ventas industriales
       p Ventas de una empresa a otra.
       h4 Ventas indirectas
-      p En ellas ocurre un contacto, pero no en persona (telemercadeo, correo, on-line).
+      p En ellas ocurre un contacto, pero no en persona (telemercadeo, correo, #[i on-line]).
       h4 Ventas electrónicas
       p Vía Internet (B2B, B2C, C2C).
       h4 Ventas intermediadas
@@ -119,7 +119,7 @@
     
     p.mb-4 Las herramientas de productividad en ventas son aquellas que ayudan a la empresa a hacer más en menos tiempo, es decir, logran automatizar varias funciones, sirven como una forma de establecer una mejor comunicación interna o con los clientes, o permiten gestionar las funciones de ventas de alguna forma.
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-8
         figure
           img(src='@/assets/curso/tema1/img07.svg', alt='Herramientas de la venta')
@@ -130,22 +130,22 @@
     .Bf01.p-5.mb-5
       .row.align-items-center.justify-content-center.position-relative
         .col-lg-3.mb-4.mb-lg-0
-          p.mb-0 Dependiendo del grado de complejidad y especificidad técnica de la venta, esta se divide en:
+          p.mb-0 D#[ bependiendo del grado de complejidad y especificidad técnica de la venta, esta se divide en:]
         .col-lg-9.ps-4.LeftBord
           ul.lista-ul--color.Clist01.mb-0
             li
               i.fas.fa-check
-              p Vendedores de ventas no técnicas: se dirigen a aquellos productos que requieren un mayor esfuerzo de ventas y su duración va según el proceso de la venta.
+              p #[b Vendedores de ventas no técnicas:] se dirigen a aquellos productos que requieren un mayor esfuerzo de ventas y su duración va según el proceso de la venta.
             li.mb-0
               i.fas.fa-check
-              p.mb-0 Vendedores de ventas técnicas: se hacen al momento del encuentro entre comprador y vendedor o venta online debido a que las características del producto y sus necesidades de compra son inmediatas.   
+              p.mb-0 #[b Vendedores de ventas técnicas:] se hacen al momento del encuentro entre comprador y vendedor o venta online debido a que las características del producto y sus necesidades de compra son inmediatas.   
     
     p.mb-4 La venta tiene un comportamiento según la naturaleza de la compra o la manera de cómo se solicita la mercancía, de acuerdo con esto, Jobber y Lancaster (2012) clasifican los compradores en tres tipos de funciones:
 
     .row.mb-5
       .col-lg-4.mb-4.mb-lg-0.H01
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip2 = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip2")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img08.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
@@ -153,7 +153,7 @@
               p También conocidos como los preventistas quienes tienen clientes ya comprometidos, por ejemplo, preventistas de Postobón, Coca-Cola o Bavaria.
       
       .col-lg-4.mb-4.mb-lg-0.H01
-        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip2 = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img09.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
@@ -161,7 +161,7 @@
               p También conocidos como visitadores médicos; los vendedores tienen énfasis en el desarrollo de habilidades de persuasión y construcción de relaciones para atraer más consumidores interesados en el producto. Por ejemplo, visitan a médicos y los convencen de que medique su marca a los pacientes. 
 
       .col-lg-4.H01
-        .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip2 = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img10.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
@@ -177,7 +177,7 @@
           img.mb-4(src='@/assets/curso/tema1/img11.svg', alt='Funciones de venta')
           figcaption Nota. Adaptada de Jobber y Lancaster (2012).
     
-    p.mb-4 Entre los vendedores tomadores de órdenes, siguiendo a Jobber y Lancaster (2012, p. 30), se encuentran vendedores con unas características diferenciadoras como:
+    p.mb-5 Entre los vendedores tomadores de órdenes, siguiendo a Jobber y Lancaster (2012, p. 30), se encuentran vendedores con unas características diferenciadoras como:
 
     h4.mb-0 1. Tomadores de órdenes internos o vendedores de pago inmediato.
     p.mb-4 Aquellos que reciben el pago y entregan la mercancía. También aplica al telemercadeo que toma pedidos por teléfono.
@@ -186,7 +186,7 @@
     p.mb-4 Son aquellos que solo realizan la entrega del producto en el domicilio.
 
     h4.mb-0 3. Tomadores de órdenes externos.
-    p.mb-4 Aquellos vendedores que solo toman el pedido revisan los inventarios y sugieren la venta.
+    p.mb-5 Aquellos vendedores que solo toman el pedido revisan los inventarios y sugieren la venta.
 
     p.mb-4 Ahora, los vendedores creadores de órdenes son, por lo general, quienes laboran en laboratorios farmacéuticos solo realizan visitas y persuaden para que se solicite a los pacientes la marca sugerida al cuerpo médico. 
 
@@ -338,7 +338,7 @@
     #MapaGroup02
       div
         button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse01' aria-expanded='true' aria-controls='.multi-collapse01')
-          h2.mb-0 Prospección
+          h4.mb-0 Prospección
       
       .multi-collapse01.collapse.show(data-bs-parent='#MapaGroup02')
         p.mb-4 La venta se inicia con la búsqueda permanente de nuevos clientes, la empresa cuenta con:
@@ -376,7 +376,7 @@
       div
         button.BG03.d-inline-block.p-4.mb-4.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse02' aria-expanded='false' aria-controls='.multi-collapse02' @mouseover="indicadorPersonal01 = false")
           .indicador--hover(v-if="indicadorPersonal01")
-          h2.mb-0 Acercamiento
+          h4.mb-0 Acercamiento
       
       .multi-collapse02.collapse(data-bs-parent='#MapaGroup02')
         p.mb-4 Cuando el vendedor tiene la lista o base de datos de los prospectos que le servirán al propósito de la venta, se pasa a la etapa de acercamiento, donde es el momento de recopilar información detallada de cada prospecto. Hair et al. (2010), recomienda los siguientes pasos:
@@ -400,7 +400,7 @@
                 h3 Identificar las características, las ventajas y los beneficios del producto.
                 p Esto dará seguridad en la presentación y demostración del producto
               div
-                h3 Preparar la presentación de ventas
+                h3 Preparar la presentación de ventas.
               div
                 h3 Planear y ensayar su enfoque para el prospecto.
         
@@ -408,7 +408,7 @@
       
       div
         button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse03' aria-expanded='false' aria-controls='.multi-collapse03')
-          h2.mb-0 Entrevista
+          h4.mb-0 Entrevista
       
       .multi-collapse03.collapse(data-bs-parent='#MapaGroup02')
         p.mb-4 En esta etapa el vendedor debe estar muy bien preparado, teniendo en cuenta las recomendaciones anteriores, un error puede dañar el trabajo previo y perderse tiempo y dinero. Lo más importante aquí es conocer al cliente, romper el hielo y procurar corroborar las necesidades del cliente de manera presencial.
@@ -492,7 +492,7 @@
       
       div
         button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse04' aria-expanded='false' aria-controls='.multi-collapse04')
-          h2.mb-0 Negociación
+          h4.mb-0 Negociación
       
       .multi-collapse04.collapse(data-bs-parent='#MapaGroup02')
         .row.align-items-center.mb-5
@@ -505,7 +505,7 @@
         .Bf11.mb-5
           .row.align-items-center.justify-content-center.position-relative
             .col-lg-5.mb-4.mb-lg-0
-              p Una excelente presentación lleva en muchos casos a pocas preguntas de parte del cliente y a una concreción rápida de la venta. Hair et al. (2010) señalan las siguientes objeciones:
+              h4 Una excelente presentación lleva en muchos casos a pocas preguntas de parte del cliente y a una concreción rápida de la venta. Hair et al. (2010) señalan las siguientes objeciones:
             .col-lg-1
             .col-lg-5.ps-4.py-5
               ul.lista-ul--color.Clist01.mb-0
@@ -545,7 +545,7 @@
       
       div
         button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse05' aria-expanded='false' aria-controls='.multi-collapse05')
-          h2.mb-0 Cierre de la venta
+          h4.mb-0 Cierre de la venta
       
       .multi-collapse05.collapse(data-bs-parent='#MapaGroup02')
         p.mb-4 El principal objetivo de la venta es finalizar exitosamente la negociación, en ella ocurren los protocolos necesarios para que esos acuerdos tengan un carácter legal, donde el vendedor logre la solicitud firmada de la orden de pedido, y este paso igual necesita que el vendedor tenga destrezas y técnicas en el cierre de la venta.
@@ -553,7 +553,7 @@
         .Bf11.mb-5
           .row.align-items-center.justify-content-center.position-relative
             .col-lg-5.mb-4.mb-lg-0
-              p A continuación, Hair et al. (2010, p.105) consideran varios tipos de cierre de la venta:
+              h4 A continuación, Hair et al. (2010, p.105) consideran varios tipos de cierre de la venta:
             .col-lg-1
             .col-lg-5.ps-4.py-5
               ul.lista-ul--color.Clist01.mb-0
@@ -575,7 +575,7 @@
     
       div
         button.BG03.d-inline-block.p-4.mb-4(data-bs-toggle='collapse' data-bs-target='.multi-collapse06' aria-expanded='false' aria-controls='.multi-collapse06')
-          h2.mb-0 Posventa y relaciones a largo plazo
+          h4.mb-0 Posventa y relaciones a largo plazo
       
       .multi-collapse06.collapse(data-bs-parent='#MapaGroup02')
         .row.align-items-center.mb-5
@@ -587,7 +587,7 @@
         .Bf11.mb-5
           .row.justify-content-center.position-relative
             .col-lg-5.mb-4.mb-lg-0.pt-5
-              p Para alcanzar ese objetivo, es necesario dar una gama de servicios complementarios, que hagan que la relación sea muy fuerte y no se pierda jamás, como son:
+              h4 Para alcanzar ese objetivo, es necesario dar una gama de servicios complementarios, que hagan que la relación sea muy fuerte y no se pierda jamás, como son:
             .col-lg-1
             .col-lg-5.ps-4.py-5
               ul.lista-ul--color.Clist01.mb-4
@@ -609,7 +609,7 @@
                 li.mb-2
                   i.fas.fa-check
                   p.mb-2 Servicio técnico.
-              p.mb-4 Además de: 
+              p.mb-4 #[b Además de:] 
               ul.lista-ul--color.Clist01.mb-0
                 li.mb-2
                   i.fas.fa-check
@@ -627,15 +627,15 @@
                   i.fas.fa-check
                   p.mb-0 Lograr referidos.
   
-    #t1_4.titulo-segundo.color-acento-contenido
+    #t1_4.mt-5.titulo-segundo.color-acento-contenido
       h2 1.4 Estrategias de ventas
     
     p.mb-4 Son esas acciones que buscan el cumplimiento de los objetivos que se propone la empresa para alcanzar en la venta de su portafolio de productos. De acuerdo con Igape (s.f.), la estrategia es:
 
     .cajon.color-primario.BG10.p-5.mb-4
-      p.mb-4 “Un conjunto consciente, racional y coherente de decisiones sobre acciones a emprender y sobre recursos a utilizar, que permite alcanzar los objetivos finales de la empresa u organización”.
+      h4.mb-0 “Un conjunto consciente, racional y coherente de decisiones sobre acciones a emprender y sobre recursos a utilizar, que permite alcanzar los objetivos finales de la empresa u organización”.
     
-    p.mb-4 Para mayor comprensión del tema, se invita a revisar el siguiente video:
+    p.mb-4 #[b Para mayor comprensión del tema, se invita a revisar el siguiente video:]
 
     .video.mb-5
       iframe(width="560" height="315" src="https://www.youtube.com/embed/mwk2MnDXtPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -680,6 +680,7 @@
           span El proceso de compra y el método AIDA 
         figure
           img(src='@/assets/curso/tema1/img22.svg', alt='compra y el método AIDA')
+          figcaption.mt-2 Nota. Adaptada de Antevenio (2020).
     
     p.mb-4 A continuación se presenta la descripción de cada uno de los elementos que atienden al Modelo AIDA:
 
@@ -716,10 +717,10 @@
     
     .Bf02.p-4.mb-5
       .position-relative
-        h4 Técnica de venta basada en el método SPIN
-        p.mb-0 Es otra técnica de ventas que puede utilizar el vendedor según la necesidad en el proceso de ventas es el Spin Selling, creada por Neil Rackham en 1988. La técnica se basa en realizar una serie de preguntas sobre situación, problema, implicación y necesidad de pago. Cada una de las preguntas tienen un propósito claro, y se deben hacer en el orden propuesto por Rackham.
+        h4 Técnica de venta basada en el método #[i SPIN]
+        p.mb-0 Es otra técnica de ventas que puede utilizar el vendedor según la necesidad en el proceso de ventas es el #[i Spin Selling], creada por Neil Rackham en 1988. La técnica se basa en realizar una serie de preguntas sobre situación, problema, implicación y necesidad de pago. Cada una de las preguntas tienen un propósito claro, y se deben hacer en el orden propuesto por Rackham.
     
-    p.mb-4 El método permite identificar cómo el cliente expresa sus necesidades, bien sean necesidades implícitas o explícitas, descritas de manera ejemplarizante en la siguiente figura.
+    p.mb-4 Consta de cuatro etapas:
 
     .row.justify-content-center.mb-5
       .col-lg-11
@@ -803,7 +804,7 @@
     .Bf11.mb-5
       .row.align-items-center.justify-content-center.position-relative
         .col-lg-4.mb-4.mb-lg-0
-          p El proceso de la venta consultiva sigue el mismo proceso del proceso de la venta:
+          h4 El proceso de la venta consultiva sigue el mismo proceso del proceso de la venta:
         .col-lg-1
         .col-lg-6.ps-4.py-5
           ul.lista-ul--color.Clist01.mb-4
@@ -828,7 +829,7 @@
             li.mb-2
               i.fas.fa-check
               p.mb-0 Posventas y relaciones a largo plazo.
-          h4 Y por sus características:
+          p #[b Y por sus características:]
           ul.lista-ul--color.Clist01.mb-0
             li.mb-2
               i.fas.fa-check
@@ -846,18 +847,18 @@
               i.fas.fa-check
               p.mb-0Evita la cancelación de pedidos.
     
-    h4.text-center.mb-3 Las técnicas para utilizar en la venta consultiva, son:
+    h4.text-center.mb-4 Las técnicas para utilizar en la venta consultiva, son:
 
     .row.justify-content-around.mb-4
       .col-md-4
         figure
-          img.Hdf2.mb-4(src='@/assets/curso/tema1/img26.svg', alt='')
-        h4 Cross selling o venta cruzada
+          img.mb-4(src='@/assets/curso/tema1/img26.svg', alt='')
+        h3.mb- Cross selling o venta cruzada
         p Esta técnica se aplica cuando el cliente ha aceptado la compra, entonces se le ofrecen productos compatibles. Ejemplo: el cliente compra un computador de mesa, se le ofrece el mueble, la impresora.
       .col-md-4
         figure
-          img.Hdf2.mb-4(src='@/assets/curso/tema1/img27.svg', alt='')
-        h4 Upselling o venta adicional 
+          img.mb-4(src='@/assets/curso/tema1/img27.svg', alt='')
+        h3.mb- Upselling o venta adicional 
         p Esta técnica se aplica cuando el cliente desea un producto ya referenciado por él y ha aceptado la compra, entonces se le presenta otro artículo con las mismas características con mayor valor agregado y más costoso.
     
     #t1_7.titulo-segundo.color-acento-contenido
@@ -986,7 +987,7 @@
     #t1_8.titulo-segundo.color-acento-contenido.pt-5
       h2 1.8 Manejo de objeciones
     
-    p.mb-4 Las objeciones deben verse como algo normal en el proceso de la venta, ocurren a cada momento, y el vendedor consciente de esto debe estar preparado y anticiparse a responder esas preguntas antes que las hagan, por eso es fundamental el conocimiento de las necesidades del cliente. Se considera que entre menos preguntas la labor de ventas es más eficiente. Según Artal (2010, p. 324), “una objeción es en realidad una oportunidad”, en ella el vendedor debe ver la oportunidad de tener mejores relaciones con el cliente y asegurar la venta.
+    p.mb-4 Las objeciones deben verse como algo normal en el proceso de la venta, ocurren a cada momento, y el vendedor consciente de esto debe estar preparado y anticiparse a responder esas preguntas antes que las hagan, por eso es fundamental el conocimiento de las necesidades del cliente. Se considera que entre menos preguntas la labor de ventas es más eficiente. Según Artal (2010, p. 324), #[b “una objeción es en realidad una oportunidad”], en ella el vendedor debe ver la oportunidad de tener mejores relaciones con el cliente y asegurar la venta.
 
     p.mb-5 Responder una objeción se convierte en una habilidad del vendedor y esas habilidades se adquieren en el entrenamiento constante y las clínicas de ventas. Hair et al. (2010, p. 103), aportan las siguientes técnicas acompañadas de frases de enlace o acciones para iniciar la objeción:    
   
@@ -1005,14 +1006,13 @@
       .col-4.mb-4
         .BG01.p-5.h-100
           h4 Estrategias de negación
-          p.mb-2 Antecedentes.
           p.mb-2 Negación indirecta.
           p.mb-0 Negación directa.
       
       .col-4.mb-4
         .BG011.p-5.h-100
           h4 Estrategias de compensación
-          p.mb-2 Boomerang.
+          p.mb-2 #[em Boomerang].
           p.mb-2 Compensación o contrapeso.
           p.mb-2 Convenir o neutralizar.
           p.mb-0 Seguir el humor.
@@ -1024,7 +1024,7 @@
           p.mb-2 Comparación o contraste.
           p.mb-0 Respuesta con una pregunta.
     
-    p.mb-0 #[b Tenga presente que:] el manejo de objeciones es una habilidad y solo se adquiere con la práctica permanente.
+    h5.mb-0 #[b Tenga presente que:] el manejo de objeciones es una habilidad y solo se adquiere con la práctica permanente.
   
 </template>
 
@@ -1035,6 +1035,7 @@ export default {
   data: () => ({
     mostrarIndicador: true,
     indicadorPersonal01: true,
+    indicadorTarjetaFlip2: true,
   }),
   mounted() {
     this.$nextTick(() => {
