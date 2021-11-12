@@ -138,7 +138,7 @@
               p #[b Vendedores de ventas no técnicas:] se dirigen a aquellos productos que requieren un mayor esfuerzo de ventas y su duración va según el proceso de la venta.
             li.mb-0
               i.fas.fa-check
-              p.mb-0 #[b Vendedores de ventas técnicas:] se hacen al momento del encuentro entre comprador y vendedor o venta online debido a que las características del producto y sus necesidades de compra son inmediatas.   
+              p.mb-0 #[b Vendedores de ventas técnicas:] se hacen al momento del encuentro entre comprador y vendedor o venta #[em online] debido a que las características del producto y sus necesidades de compra son inmediatas.   
     
     p.mb-4 La venta tiene un comportamiento según la naturaleza de la compra o la manera de cómo se solicita la mercancía, de acuerdo con esto, Jobber y Lancaster (2012) clasifican los compradores en tres tipos de funciones:
 
@@ -262,7 +262,7 @@
               p Venta multinivel.
             li.mb-0
               i.fas.fa-check
-              p.mb-0 Venta online o comercio electrónico.
+              p.mb-0 Venta #[em online] o comercio electrónico.
         .col-lg-4.ps-4
           h1 Ahora, se amplía la información sobre cada una de ellas.
 
@@ -306,7 +306,7 @@
       .col-md-4
         figure
           img.Hdf2.mb-4(src='@/assets/curso/tema1/img14.svg', alt='Venta online o comercio electrónico')
-        h4 Venta online o comercio electrónico
+        h4 Venta #[i online] o comercio electrónico
         p Este tipo de ventas hace uso del internet y la web para realizar transacciones de solicitud y pago de negocios (Mejía, 2017, p. 24).
     
     #t1_3.titulo-segundo.color-acento-contenido
