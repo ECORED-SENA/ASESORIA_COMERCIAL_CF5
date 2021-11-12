@@ -125,7 +125,7 @@
           img(src='@/assets/curso/tema1/img07.svg', alt='Herramientas de la venta')
     
     #t1_2.titulo-segundo.color-acento-contenido
-      h2 1.2 Herramientas de la venta
+      h2 1.2 Clasificación de vendedores
 
     .Bf01.p-5.mb-5
       .row.align-items-center.justify-content-center.position-relative
@@ -190,7 +190,7 @@
 
     p.mb-4 Ahora, los vendedores creadores de órdenes son, por lo general, quienes laboran en laboratorios farmacéuticos solo realizan visitas y persuaden para que se solicite a los pacientes la marca sugerida al cuerpo médico. 
 
-    p.mb-4 Y los vendedores captadores de órdenes son los vendedores que responden por una cuota de ventas, realizan el proceso de la venta, identifican nuevos prospectos y realizan persuasión y negociación. En este grupo de vendedores, Torres (2014) señala un grupo dedicado a las ventas y que se encuentra en la línea de fuego:
+    p.mb-5 Y los vendedores captadores de órdenes son los vendedores que responden por una cuota de ventas, realizan el proceso de la venta, identifican nuevos prospectos y realizan persuasión y negociación. En este grupo de vendedores, Torres (2014) señala un grupo dedicado a las ventas y que se encuentra en la línea de fuego:
 
     .cajon.color-primario.BG10.p-5.mb-5
       .row
@@ -539,7 +539,7 @@
             .bloque-texto-c.color-primario.BG01.p-4.mb-4
               i.fas.fa-quote-right
               p.mb-2 #[b Las objeciones comunes se refieren al precio, satisfacción con el proveedor actual, renuencia a tomar decisiones en el momento, no hay necesidad inmediata del producto, sentimientos negativos hacia el vendedor, entre otras.]
-              span - (Torres, 2014)
+              span (Torres, 2014)
 
         p.mb-5 Es así como el vendedor debe determinar cuáles son los obstáculos que impiden a sus posibles clientes comprar, para superarlos de forma inmediata.
       
