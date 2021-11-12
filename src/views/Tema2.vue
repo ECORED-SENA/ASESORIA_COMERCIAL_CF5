@@ -321,7 +321,7 @@
             p Transferencia bancaria.
           li
             i.fas.fa-check
-            p Medios electrónicos o pagos online.
+            p Medios electrónicos o pagos #[i online].
           li
             i.fas.fa-check
             p Cheques.

@@ -130,7 +130,7 @@
     .Bf01.p-5.mb-5
       .row.align-items-center.justify-content-center.position-relative
         .col-lg-3.mb-4.mb-lg-0
-          p.mb-0 D#[ bependiendo del grado de complejidad y especificidad técnica de la venta, esta se divide en:]
+          h4.mb-0 Dependiendo del grado de complejidad y especificidad técnica de la venta, esta se divide en:
         .col-lg-9.ps-4.LeftBord
           ul.lista-ul--color.Clist01.mb-0
             li
@@ -266,7 +266,7 @@
         .col-lg-4.ps-4
           h1 Ahora, se amplía la información sobre cada una de ellas.
 
-    h3 Venta personal
+    h2 Venta personal
 
     p.mb-4 Existe un encuentro entre comprador y vendedor y es el momento en que el vendedor realiza sus técnicas para vender. Puede ser venta personal interna y venta personal externa.
 
@@ -279,8 +279,6 @@
             p.mb-0 El encuentro del vendedor y comprador se da dentro del establecimiento comercial, donde el vendedor debe desarrollar técnicas de servicio al cliente y de ventas.
           div(titulo="Ventas en mercados")
             p.mb-0 Donde se consigue una serie de locales comerciales que venden todo tipo de productos de abarrotes.
-          div(titulo="Venta de mostrador")
-            p.mb-0 El encuentro del vendedor y comprador se da dentro del establecimiento comercial, donde el vendedor debe desarrollar técnicas de servicio al cliente y de ventas.
           div(titulo="Ventas en autoservicio")
             p.mb-0 Aquí el vendedor despliega técnicas de merchandising para lograr captar el interés del cliente.
           div(titulo="Ventas en feria y salones")
@@ -297,17 +295,17 @@
             p.mb-0 Es una venta que se realiza temporalmente en algunos puntos seleccionados para vender productos agrícolas o de la canasta familiar, también son puestos móviles algo permanentes. Generalmente no cuentan con permisos locales.
       .col-md-6.bgImg01.BR01.mb-3
     
-    .row.justify-content-around.mb-4
+    .row.justify-content-around.mb-5
       .col-md-4
         figure
           img.Hdf2.mb-4(src='@/assets/curso/tema1/img13.svg', alt='Venta multinivel')
-        h4 Venta multinivel
+        h2 Venta multinivel
         p Está conformada por una red de personas que compran a la empresa y les conceden un código con el cual pueden distribuir sus productos con otras personas que también ganan en la venta.
       .col-md-4
         figure
           img.Hdf2.mb-4(src='@/assets/curso/tema1/img14.svg', alt='Venta online o comercio electrónico')
-        h4 Venta #[i online] o comercio electrónico
-        p Este tipo de ventas hace uso del internet y la web para realizar transacciones de solicitud y pago de negocios (Mejía, 2017, p. 24).
+        h2 Venta #[i online] o comercio electrónico
+        p Este tipo de ventas hace uso del internet y la #[i web] para realizar transacciones de solicitud y pago de negocios (Mejía, 2017, p. 24).
     
     #t1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Proceso de la venta
@@ -1024,7 +1022,7 @@
           p.mb-2 Comparación o contraste.
           p.mb-0 Respuesta con una pregunta.
     
-    h5.mb-0 #[b Tenga presente que:] el manejo de objeciones es una habilidad y solo se adquiere con la práctica permanente.
+    h4.mb-0 #[b Tenga presente que:] el manejo de objeciones es una habilidad y solo se adquiere con la práctica permanente.
   
 </template>
 

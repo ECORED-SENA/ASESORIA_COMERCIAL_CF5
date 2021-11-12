@@ -325,7 +325,7 @@
               p.mb-0 Saber preguntar.
             li.mb-0
               i.fas.fa-check
-              p.mb-0 Hacer retroalimentación o #[i feedback].
+              p.mb-0 Hacer retroalimentación o #[em feedback].
       
       .row(numero="13" titulo="Comunicación no verbal")
         .col-lg-12.mb-4
