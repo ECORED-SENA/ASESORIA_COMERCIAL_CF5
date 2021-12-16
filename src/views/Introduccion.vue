@@ -10,7 +10,7 @@
       h1 Introducción  
     
     .cajon-b.color-primario.p-3.mb-4
-      p.mb-0 En el presente componente tendrá la posibilidad de abordar los aspectos generales de la venta y transacciones comerciales, así como los conocimientos necesarios para una buena comunicación que lleve a los vendedores a fortalecer el proceso el proceso y su utilidad. A continuación, se invita a visualizar el video de introducción:
+      p.mb-0 En el presente componente tendrá la posibilidad de abordar los aspectos generales de la venta y transacciones comerciales, así como los conocimientos necesarios para una buena comunicación que lleve a los vendedores a fortalecer el proceso y su utilidad. A continuación, se invita a visualizar el video de introducción:
     
     figure
       .video

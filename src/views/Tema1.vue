@@ -15,12 +15,12 @@
             | La venta es tal vez la actividad más antigua el mundo, ya desde la prehistoria se realizaban acciones de venta conocida como el trueque, luego se realizaron otras relaciones de intercambio más avanzadas entre civilizaciones, posteriormente desde antes de Cristo se empezaron a usar metales como forma de pago para realizar intercambios.
             br
             br
-            | Con el desarrollo de las ventas y la división del trabajo, surgieron los vendedores como intermediarios entre personas o entre civilizaciones, a medida que crecía la población los vendedores cobraban más importancia para el desarrollo de una región, púes era el que proveía y conseguía lo que la población necesitaba. Hoy en día las ventas son una de las actividades que, a pesar de los cambios demográficos, económicos, empresariales y la evolución de los clientes y mercados, junto a diferentes circunstancias competitivas, representan para la sociedad el principal motor de transformación socioeconómico. 
+            | Con el desarrollo de las ventas y la división del trabajo, surgieron los vendedores como intermediarios entre personas o entre civilizaciones, a medida que crecía la población los vendedores cobraban más importancia para el desarrollo de una región, pues era el que proveía y conseguía lo que la población necesitaba. Hoy en día las ventas son una de las actividades que, a pesar de los cambios demográficos, económicos, empresariales y la evolución de los clientes y mercados, junto a diferentes circunstancias competitivas, representan para la sociedad el principal motor de transformación socioeconómico. 
       .col-8.col-lg-3
         figure
           img(src='@/assets/curso/tema1/img01.jpg', alt='intercambios')
     
-    p.mb-4 La venta es el motor de la empresa, está ejecuta lo realizado en el plan de mercadeo. Hoy en día #[b TODAS] las organizaciones se orientan a proveer servicios al cliente #[i (Service Profit Chain)] como una estrategia para aumentar las ventas. Por ende, todos los empleados sin importar su rol en la empresa son “vendedores” en mayor o menor grado.
+    p.mb-4 La venta es el motor de la empresa, esta ejecuta lo realizado en el plan de mercadeo. Hoy en día #[b TODAS] las organizaciones se orientan a proveer servicios al cliente #[i (Service Profit Chain)] como una estrategia para aumentar las ventas. Por ende, todos los empleados sin importar su rol en la empresa son “vendedores” en mayor o menor grado.
     p.mb-4 Vender es hacer operaciones de negocios en empresas con otras empresas #[b (B2B)], es decir de negocio a negocio, empresas que le venden a otras empresas para su producción o distribución, entre empresas y personas #[b (B2C)] es decir, de negocios a clientes, empresas que le venden directamente a los clientes, entre empresas y Gobierno #[b (B2G)], de negocio al Gobierno, son esas empresas que proveen de productos y servicios al Gobierno para sus necesidades, entre otras, y que deben vender sus productos o servicios.
 
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
@@ -34,7 +34,7 @@
     .row.align-items-center.justify-content-between.mb-5
       .col-lg-6.mb-4.mb-lg-0
         p.mb-0
-          | En otros conceptos, las ventas tienen diferentes connotaciones, así, para Heller (2014), #[b es el cambio de productos y servicios por dinero]. Desde una mirada legal, se trata de la transferencia del derecho de posesión de un bien, a cambio de dinero y desde una mirada contable y financiero, la venta es el monto total cobrado por productos o servicios prestados.
+          | En otros conceptos, las ventas tienen diferentes connotaciones, así, para Heller (2014), #[b es el cambio de productos y servicios por dinero]. Desde una mirada legal, se trata de la transferencia del derecho de posesión de un bien, a cambio de dinero y desde una mirada contable y financiera, la venta es el monto total cobrado por productos o servicios prestados.
           br
           br
           | Para la realización de la venta debe tenerse en cuenta varias etapas y a partir de ahí desencadenar el proceso de la venta. La venta tiene varias etapas conocidas en cada una de ellas el vendedor debe tener una preparación para afrontar con calidad cada etapa. Estas etapas, de acuerdo con Torres (2014, p. 71), son: 
@@ -166,7 +166,7 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img10.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               h1 Captadores de órdenes
-              p Procuran persuadir a los clientes de hacer un orden de pedido teniendo en cuenta su nivel de rotación de inventario, precios, facilidad de entrega, entre otros.
+              p Procuran persuadir a los clientes de hacer una orden de pedido teniendo en cuenta su nivel de rotación de inventario, precios, facilidad de entrega, entre otros.
     
     .row.justify-content-center.mb-5
       .col-lg-10     
@@ -416,7 +416,7 @@
         figure.mb-5
           img.mb-4(src='@/assets/curso/tema1/img17.svg', alt='Prospección')
         
-        h3.text-center.mb-4 Existen tres tipos presentaciones:
+        h3.text-center.mb-4 Existen tres tipos de presentaciones:
 
         .row.gx-3.mb-5
           .col-4.mb-4.mb-lg-0
@@ -769,7 +769,7 @@
       .col-lg-4
         .BG00.BR01.h-100.p-5
           h4 Necesidades explícitas o particulares: 
-          p.mb-0 para que un cliente compre, su necesidad debe ser ya explícita, que lo esté expresando. Debe demostrarlo mediante frases que expresen deseo como “Necesito un XXX que tenga XXX característica”, si tuviéramos XXX y XXX, entonces podríamos, XXX”.
+          p.mb-0 Para que un cliente compre, su necesidad debe ser ya explícita, que lo esté expresando. Debe demostrarlo mediante frases que expresen deseo como “Necesito un XXX que tenga XXX característica”, si tuviéramos XXX y XXX, entonces podríamos, XXX”.
     
   .container.bg-white.p-0
     ImagenInfografica.color-secundario.mb-5
@@ -834,16 +834,16 @@
               p.mb-0 Tiene mayor aceptación entre los clientes.
             li.mb-2
               i.fas.fa-check
-              p.mb-0Genera confianza y fidelidad.
+              p.mb-0 Genera confianza y fidelidad.
             li.mb-2
               i.fas.fa-check
-              p.mb-0Promueve el boca a boca.
+              p.mb-0 Promueve el boca a boca.
             li.mb-2
               i.fas.fa-check
-              p.mb-0Trae clientes más fieles.
+              p.mb-0 Trae clientes más fieles.
             li.mb-0
               i.fas.fa-check
-              p.mb-0Evita la cancelación de pedidos.
+              p.mb-0 Evita la cancelación de pedidos.
     
     h4.text-center.mb-4 Las técnicas para utilizar en la venta consultiva, son:
 

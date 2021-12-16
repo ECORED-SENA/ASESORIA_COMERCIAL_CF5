@@ -217,7 +217,7 @@
               p.mb-0 Revistas.
             li.mb-2
               i.fas.fa-check
-              p.mb-0 Internet .
+              p.mb-0 Internet.
             li.mb-2
               i.fas.fa-check
               p.mb-0 Medios de comunicación exterior.
